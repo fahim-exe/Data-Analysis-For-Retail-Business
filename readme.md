@@ -91,51 +91,7 @@ It follows a relational data model with dimension and fact tables. The dataset c
 
 ## Data Model Relationships
 
-```mermaid
-erDiagram
-    DimCustomers ||--o{ FactOrders : places
-    FactOrders ||--|{ FactOrderItems : contains
-    DimProducts ||--o{ FactOrderItems : included_in
-    FactOrders ||--|| FactPayment : linked_to
-
-    DimCustomers {
-        int customer_id PK
-        string full_name
-        string Gender
-        string email
-        string phone
-        string city
-        date created_at
-    }
-
-    DimProducts {
-        int product_id PK
-        string product_name
-        string category
-        decimal unit_price
-        int stock
-    }
-
-    FactOrders {
-        int order_id PK
-        int customer_id FK
-        date order_date
-        string status
-    }
-
-    FactOrderItems {
-        int order_item_id PK
-        int order_id FK
-        int product_id FK
-        int quantity
-    }
-
-    FactPayment {
-        int payment_id PK
-        int order_id FK
-        string method
-    }
-```
+Images/UrbanCartERD.jpg
 
 ---
 
