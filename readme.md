@@ -110,11 +110,8 @@ It follows a relational data model with dimension and fact tables. The dataset c
 
 The dataset contains five payment-method options:
 
-* Cash on Delivery (COD)
-* bKash
-* Nagad
-* Credit Card
-* Debit Card
+
+![Orders by Method](Images/Orders by Payment Method.png)
 
 ---
 
