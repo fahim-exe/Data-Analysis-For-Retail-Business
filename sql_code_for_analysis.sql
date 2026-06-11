@@ -555,7 +555,28 @@ INNER JOIN gender_total AS gt
 
 ORDER BY 2, 8 DESC
 
+-- 14. How does customer purchasing behavior change over time since account creation?
+SELECT customer_id, created_at FROM "DimCustomers"
 
+WITH updated_customer_table
+(
+	SELECT 
+			dc.customer_id,
+			COALESCE(dc.created_at, MIN(fo.order_date)) as revised_creation_date
+	FROM "FactOrders" fo
+	INNER JOIN "DimCustomers" dc
+			ON
+			fo.customer_id = dc.customer_id
+	GROUP BY 1, dc.created_at
+)
+
+
+		
+FROM "FactOrders" fo
+INNER JOIN "DimCustomers" dc
+		ON
+		fo.customer_id = dc.customer_id
+WHERE dc.created_at IS NULL
 
 -- 15. Generate a list of customers who ordered in October but didn’t order in December.
 
@@ -707,23 +728,280 @@ ORDER BY 1, 4 DESC
 --
 
 -- 20. Are higher-value orders associated with specific payment methods?
-WITH 
+WITH order_value AS 
+
+(
+	SELECT 
+			fo.order_id,
+			fp.method AS pay_method,
+			SUM(foi.quantity * dp.unit_price) AS total_order_value
+	FROM "FactOrders" fo
+	INNER JOIN "FactOrderItems" foi
+			ON
+			fo.order_id = foi.order_id
+	INNER JOIN "DimProducts" dp
+			ON
+			foi.product_id = dp.product_id
+	INNER JOIN "FactPayment" fp
+			ON
+			fo.order_id = fp.order_id
+	WHERE fo.status = 'Completed'
+	
+	GROUP BY fo.order_id, fp.method
+)
+
+SELECT
+		pay_method,
+		COUNT(order_id) AS order_count,
+		ROUND(AVG(total_order_value), 2) AS avg_order_value
+FROM order_value
+GROUP BY pay_method
+ORDER BY avg_order_value DESC
+
+
+WITH order_value AS
+(
+	SELECT
+			fo.order_id,
+			fp.method as pay_method,
+			SUM(foi.quantity * dp.unit_price) AS order_value
+	FROM "FactOrders" fo
+	INNER JOIN "FactOrderItems" foi
+			ON
+			fo.order_id = foi.order_id
+	INNER JOIN "DimProducts" dp
+        ON foi.product_id = dp.product_id
+    INNER JOIN "FactPayment" fp
+        ON fo.order_id = fp.order_id
+    WHERE fo.status = 'Completed'
+    GROUP BY 1 , 2
+)
 SELECT 
-		fo.order_id,
-		fp.method,
-		SUM(foi.quantity * dp.unit_price) as order_value
-FROM "FactOrders" fo
-INNER JOIN "FactOrderItems" foi
-		ON
-		fo.order_id = foi.order_id
-INNER JOIN "DimProducts" dp
-		ON
-		foi.product_id = dp.product_id
+		pay_method,
+		COUNT(order_id) AS completed_orders,
+		ROUND(AVG(order_value), 2) AS average_order_value,
+		ROUND(SUM(order_value), 2) AS gross_sale_current,
+		ROUND(MIN(order_value), 2) AS lowest_order_value,
+		ROUND(MAX(order_value), 2) AS highest_order_value
+
+FROM order_value
+GROUP BY 1
+ORDER BY 3 DESC
+
+-- 21. What is the average number of items per order by payment method?
+
+SELECT	
+		fp.method AS pay_method,
+		foi.order_id,
+		COUNT(order_item_id)
+		
+		--order_id,
+		--COUNT(order_item_id) as count_orders
+FROM "FactOrderItems" foi
 INNER JOIN "FactPayment" fp
 		ON
-		fo.order_id = fp.order_id
-WHERE fo.status = 'Completed'
+		foi.order_id = fp.order_id
 
-GROUP BY fo.order_id, fp.method
+GROUP BY 1, 2
+ORDER BY 1 ASC
+
+
+WITH item_order_summary AS(
+	SELECT 
+			fp.method AS pay_method,
+			foi.order_id,
+			COUNT(foi.order_item_id) AS product_count,
+			SUM(foi.quantity) AS total_units
+
+	FROM "FactOrderItems" foi
+	INNER JOIN "FactPayment" fp
+			ON
+			foi.order_id = fp.order_id
+	GROUP BY 1, 2
+)
+
+SELECT 
+		pay_method,
+		COUNT(order_id) AS total_orders,
+		ROUND(AVG(product_count), 2) AS avg_product_count_per_order,
+		ROUND(AVG(total_units), 2) AS avg_uni_per_order
+FROM item_order_summary
+GROUP BY 1
+ORDER BY 4 DESC
+
+--
+
+SELECT * FROM "DimProducts"
+
+SELECT
+		category,
+		SUM(unit_price) AS total_price_per_category,
+		ROUND(
+			SUM(unit_price) / COUNT(unit_price), 2
+		) AS avg_price_for_category
+FROM "DimProducts"
+GROUP BY 1
 ORDER BY 3 DESC
+
+SELECT
+		category,
+		SUM(unit_price) AS total_price_per_category,
+		ROUND(
+			AVG(unit_price), 2
+		) AS avg_price_for_category
+FROM "DimProducts"
+GROUP BY 1
+ORDER BY 3 DESC
+
+
+-- 22.Create a list to show the difference between the category average price and product’s price for all the products.
+
+SELECT
+		product_id,
+		product_name,
+		category,
+		unit_price,
+		ROUND(AVG(unit_price) OVER(PARTITION BY category) , 2) AS category_avg,
+		ROUND(unit_price - AVG(unit_price) OVER(PARTITION BY category) , 2) AS price_diff
+
+FROM "DimProducts"
+
+ORDER BY 5 ASC
+
+
+-- 23. Which product pairs are most frequently purchased together in the same order?
+
+-- without completed orders
+
+WITH top_paired_products AS
+(
+	SELECT
+			foi1.product_id AS product_id_1,
+			foi2.product_id AS product_id_2,
+			COUNT(*) AS times_ordered_together
+			
+	FROM "FactOrderItems" foi1
+	JOIN "FactOrderItems" foi2
+			ON
+			(
+			foi1.order_id = foi2.order_id
+			AND
+			foi1.product_id < foi2.product_id
+			)
+	GROUP BY 1, 2
+	ORDER BY 3 DESC
+)
+SELECT 
+		product_id_1,
+		dp1.product_name AS product_1,
+		product_id_2,
+		dp2.product_name AS product_2,
+		times_ordered_together
+FROM top_paired_products top_pair
+LEFT JOIN "DimProducts" dp1
+		ON 
+		top_pair.product_id_1 = dp1.product_id
+LEFT JOIN "DimProducts" dp2
+		ON
+		top_pair.product_id_2 = dp2.product_id
+
+ORDER BY 5 DESC
+
+
+-- with completed orders
+
+WITH top_paired_products AS
+(
+	SELECT
+			foi1.product_id AS product_id_1,
+			foi2.product_id AS product_id_2,
+			COUNT(*) AS times_ordered_together
+			
+	FROM "FactOrderItems" foi1
+	JOIN "FactOrderItems" foi2
+			ON
+			(
+			foi1.order_id = foi2.order_id
+			AND
+			foi1.product_id < foi2.product_id
+			)
+	INNER JOIN "FactOrders" fo1
+			ON
+			foi1.order_id = fo1.order_id	
+	WHERE fo1.status = 'Completed'
+	GROUP BY 1, 2
+	ORDER BY 3 DESC
+)
+SELECT 
+		product_id_1,
+		dp1.product_name AS product_1,
+		product_id_2,
+		dp2.product_name AS product_2,
+		times_ordered_together
+FROM top_paired_products top_pair
+LEFT JOIN "DimProducts" dp1
+		ON 
+		top_pair.product_id_1 = dp1.product_id
+LEFT JOIN "DimProducts" dp2
+		ON
+		top_pair.product_id_2 = dp2.product_id
+ORDER BY 5 DESC
+
+
+
+-- 24. Which product pairs generate the highest total revenue when sold together?
+
+WITH pair_revenue_summary AS
+(
+	SELECT
+			foi1.product_id AS product_id_1,
+			foi2.product_id AS product_id_2,			
+			COUNT(*) AS times_ordered_together,
+			SUM(
+			(foi1.quantity * dp1.unit_price) + (foi2.quantity * dp2.unit_price)
+			) AS total_revenue
+			
+	FROM "FactOrderItems" foi1
+	JOIN "FactOrderItems" foi2
+			ON
+			(
+			foi1.order_id = foi2.order_id
+			AND
+			foi1.product_id < foi2.product_id
+			)
+	INNER JOIN "FactOrders" fo1
+			ON
+			foi1.order_id = fo1.order_id	
+	JOIN "DimProducts" dp1
+			ON
+			foi1.product_id = dp1.product_id
+	JOIN "DimProducts" dp2
+			ON
+			foi2.product_id = dp2.product_id
+	WHERE fo1.status = 'Completed'
+	GROUP BY foi1.product_id, foi2.product_id
+	
+)
+SELECT 
+		product_id_1,
+		dp1.product_name AS product_1,
+		product_id_2,
+		dp2.product_name AS product_2,
+		prs.times_ordered_together,
+		prs.total_revenue
+		
+FROM pair_revenue_summary prs
+LEFT JOIN "DimProducts" dp1
+		ON 
+		prs.product_id_1 = dp1.product_id
+LEFT JOIN "DimProducts" dp2
+		ON
+		prs.product_id_2 = dp2.product_id
+
+ORDER BY prs.total_revenue DESC
+
+
+
+
+
 
