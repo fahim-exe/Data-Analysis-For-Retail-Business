@@ -115,6 +115,9 @@ It follows a relational data model with dimension and fact tables. The dataset c
 
 ### Product Categories
 
+![total products in category](Images/product_category_count.png)
+
+
 The dataset includes products from 12 categories:
 
 * Grocery
