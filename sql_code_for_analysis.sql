@@ -705,3 +705,25 @@ ORDER BY 1, 4 DESC
 
 
 --
+
+-- 20. Are higher-value orders associated with specific payment methods?
+WITH 
+SELECT 
+		fo.order_id,
+		fp.method,
+		SUM(foi.quantity * dp.unit_price) as order_value
+FROM "FactOrders" fo
+INNER JOIN "FactOrderItems" foi
+		ON
+		fo.order_id = foi.order_id
+INNER JOIN "DimProducts" dp
+		ON
+		foi.product_id = dp.product_id
+INNER JOIN "FactPayment" fp
+		ON
+		fo.order_id = fp.order_id
+WHERE fo.status = 'Completed'
+
+GROUP BY fo.order_id, fp.method
+ORDER BY 3 DESC
+
