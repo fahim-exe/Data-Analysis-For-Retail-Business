@@ -91,7 +91,7 @@ It follows a relational data model with dimension and fact tables. The dataset c
 
 ## Data Model Relationships
 
-Images/UrbanCartERD.jpg
+![Entity Relation Diagram](Images/UrbanCartERD.jpg)
 
 ---
 
