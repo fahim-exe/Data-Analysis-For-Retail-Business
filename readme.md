@@ -108,7 +108,7 @@ It follows a relational data model with dimension and fact tables. The dataset c
 
 ### Payment Methods
 
-<img width="600" height="371" alt="Orders by Payment Method" src="https://github.com/user-attachments/assets/66fea7b1-09c1-4867-9c2a-4cac7f5b85f7" />
+
 
 
 ---
