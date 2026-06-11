@@ -111,7 +111,7 @@ It follows a relational data model with dimension and fact tables. The dataset c
 The dataset contains five payment-method options:
 
 
-![Orders by Method](Images/Orders by Payment Method.png)
+
 
 ---
 
