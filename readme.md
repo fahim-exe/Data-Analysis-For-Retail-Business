@@ -10,7 +10,7 @@ It follows a relational data model with dimension and fact tables. The dataset c
 
 ---
 
-## Dataset Summary
+### Dataset Summary
 
 | Metric              |                                Value |
 | ------------------- | -----------------------------------: |
@@ -25,7 +25,7 @@ It follows a relational data model with dimension and fact tables. The dataset c
 
 ---
 
-## Dataset Files
+### Dataset Files
 
 | File Name            |  Rows | Description                                                                                                      |
 | -------------------- | ----: | ---------------------------------------------------------------------------------------------------------------- |
@@ -37,9 +37,9 @@ It follows a relational data model with dimension and fact tables. The dataset c
 
 ---
 
-## Table Schema
+### Table Schema
 
-### `DimCustomers.csv`
+##### `DimCustomers.csv`
 
 | Column        | Description                         |
 | ------------- | ----------------------------------- |
@@ -51,7 +51,7 @@ It follows a relational data model with dimension and fact tables. The dataset c
 | `city`        | Customer location                   |
 | `created_at`  | Customer registration date          |
 
-### `DimProducts.csv`
+##### `DimProducts.csv`
 
 | Column         | Description                                         |
 | -------------- | --------------------------------------------------- |
@@ -61,7 +61,7 @@ It follows a relational data model with dimension and fact tables. The dataset c
 | `unit_price`   | Current listed price of the product                 |
 | `stock`        | Available stock value recorded in the product table |
 
-### `FactOrders.csv`
+##### `FactOrders.csv`
 
 | Column        | Description                                                  |
 | ------------- | ------------------------------------------------------------ |
@@ -70,7 +70,7 @@ It follows a relational data model with dimension and fact tables. The dataset c
 | `order_date`  | Date on which the order was placed                           |
 | `status`      | Current order status: `Completed`, `Pending`, or `Cancelled` |
 
-### `FactOrderItems.csv`
+##### `FactOrderItems.csv`
 
 | Column          | Description                               |
 | --------------- | ----------------------------------------- |
@@ -79,7 +79,7 @@ It follows a relational data model with dimension and fact tables. The dataset c
 | `product_id`    | Product included in the order             |
 | `quantity`      | Number of units ordered                   |
 
-### `FactPayment.csv`
+##### `FactPayment.csv`
 
 | Column       | Description                                        |
 | ------------ | -------------------------------------------------- |
@@ -89,13 +89,13 @@ It follows a relational data model with dimension and fact tables. The dataset c
 
 ---
 
-## Data Model Relationships
+### Data Model Relationships
 
 ![Entity Relation Diagram](Images/UrbanCartERD.jpg)
 
 ---
 
-## Order Status Distribution
+### Order Status Distribution
 
 | Order Status | Number of Orders | Percentage |
 | ------------ | ---------------: | ---------: |
@@ -106,7 +106,7 @@ It follows a relational data model with dimension and fact tables. The dataset c
 
 ---
 
-## Payment Methods
+### Payment Methods
 
 The dataset contains five payment-method options:
 
@@ -118,7 +118,7 @@ The dataset contains five payment-method options:
 
 ---
 
-## Product Categories
+### Product Categories
 
 The dataset includes products from 12 categories:
 
@@ -139,7 +139,7 @@ The dataset includes products from 12 categories:
 
 ---
 
-## Data Quality Notes
+### Data Quality Notes
 
 The relationships between the tables are structurally consistent:
 
@@ -159,6 +159,6 @@ However, several limitations should be considered:
 
 ---
 
-## Important Note
+#### Important Note
 
 This dataset should be treated as a learning or portfolio dataset. It should not be used for official financial reporting without adding transaction-level prices, verified payment information, inventory movements, and stronger data-quality controls.
