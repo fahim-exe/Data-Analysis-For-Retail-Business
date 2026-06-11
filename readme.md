@@ -110,9 +110,9 @@ It follows a relational data model with dimension and fact tables. The dataset c
 
 The dataset contains five payment-method options:
 
-* Cash on Delivery (`COD`)
-* `bKash`
-* `Nagad`
+* Cash on Delivery (COD)
+* bKash
+* Nagad
 * Credit Card
 * Debit Card
 
@@ -137,20 +137,6 @@ The dataset includes products from 12 categories:
 
 ---
 
-## Potential Analysis Areas
-
-This dataset can be used to explore:
-
-* Total orders and order-status trends
-* Completed, pending, and cancelled order rates
-* Product and category performance
-* Customer purchase frequency
-* City-level customer and order distribution
-* Average number of items per order
-* Payment-method preferences
-* Gross sales estimation using current catalogue prices
-* Inventory monitoring and stock-level review
-
 ---
 
 ## Data Quality Notes
@@ -170,20 +156,6 @@ However, several limitations should be considered:
 3. The stock column does not include an inventory movement history.
 4. Some customer registration dates are missing.
 5. Customer phone numbers should be validated and cleaned before using them for operational purposes.
-
----
-
-## Recommended Use
-
-This dataset is suitable for:
-
-* SQL portfolio projects
-* Data cleaning and validation exercises
-* Exploratory data analysis
-* Power BI or Tableau dashboards
-* Python-based data analysis
-* E-commerce KPI design
-* Data-modelling practice
 
 ---
 
