@@ -639,7 +639,35 @@ Identifying these customers provides an opportunity for targeted remarketing cam
 
 
 16. **Customers who ordered in both October and December**
+**Business Question:**  
+Generate a list of customers who placed orders in both October and December.
 
+**Analysis:**  
+A total of 20+ customers were active in both months, demonstrating repeat engagement.
+
+**Sample Output Table:**
+
+| Customer ID | Customer Name | Email                | Phone       | City       |
+|------------:|---------------|---------------------|------------|------------|
+| 1           | Abdullah      | abdullah1@gmail.com  | 167460949  | Chattogram |
+| 3           | Taushif       | taushif3@yahoo.com   | 150001052  | Khulna     |
+| 4           | Saiful        | saiful4@gmail.com    | 198053269  | Rangpur    |
+| 6           | Shithi        | shithi6@gmail.com    | 145609346  | Chattogram |
+| 7           | Rumana        | rumana7@gmail.com    | 173762918  | Chattogram |
+| 8           | Lamisa        | lamisa8@outlook.com  | 156168574  | Sylhet     |
+| 9           | Anika         | anika9@gmail.com     | 137023818  | Cumilla    |
+| 10          | Irtaza        | irtaza10@outlook.com | 165645739  | Gazipur    |
+| 11          | Moumita       | moumita11@gmail.com  | 151102827  | Sylhet     |
+| 13          | Samia         | samia13@gmail.com    | 168959948  | Rangpur    |
+
+
+**Interpretation:**  
+These customers represent **highly engaged repeat buyers**. Maintaining and nurturing this segment is crucial for customer retention and increasing lifetime value. Marketing efforts, loyalty programs, and personalized recommendations should focus on these customers.
+
+**Business Recommendations:**  
+1. Reward repeat customers with loyalty points or exclusive offers.  
+2. Analyze purchase patterns to recommend complementary products.  
+3. Monitor engagement over time to identify potential churn risk even among repeat buyers.
 
 ---
 #### 3. Product and Category Performance
