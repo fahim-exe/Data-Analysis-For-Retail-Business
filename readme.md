@@ -267,6 +267,10 @@ Aggregating orders by month shows the following trend:
 | Nov 2025 | 371          |
 | Dec 2025 | 173          |
 
+**Visualization:**  
+
+<img width="2355" height="1408" alt="q4_monthly_order_trend" src="https://github.com/user-attachments/assets/3860a8d1-1078-44e4-8fc5-d2973155f0e0" />
+
 **Interpretation:**  
 The highest order volume occurred in **October 2025** (413 orders), indicating peak shopping activity. Orders decreased slightly in **November** and dropped significantly in **December**, which could be due to seasonality, promotions, or other operational factors. September showed a moderate start as the initial month in the dataset.
 
@@ -275,17 +279,57 @@ The highest order volume occurred in **October 2025** (413 orders), indicating p
 2. Investigate reasons for December drop to adjust marketing campaigns or promotions.  
 3. Monitor monthly trends to plan staffing, inventory, and marketing efforts more efficiently.
 
+
+
+
+
+5. **Completed, pending, and cancelled order rates**
+**Business Question:**  
+What is the Completed, Pending & Cancelled Rate?
+
+**Analysis:**  
+The order status analysis was conducted to understand the operational performance of UrbanCart and identify the proportion of successfully completed, pending, and cancelled orders.
+
+| Order Status | Total Orders | Rate (%) |
+|-------------|-------------:|---------:|
+| Completed   | 713          | 59.42%   |
+| Cancelled   | 246          | 20.50%   |
+| Pending     | 241          | 20.08%   |
+| **Total**   | **1,200**    | **100%** |
+
+
 **Visualization:**  
 
-<img width="2355" height="1408" alt="q4_monthly_order_trend" src="https://github.com/user-attachments/assets/3860a8d1-1078-44e4-8fc5-d2973155f0e0" />
+<img width="2375" height="1408" alt="q5_order_status_distribution" src="https://github.com/user-attachments/assets/62a5e578-ff9c-4383-b989-865c3ed10ba1" />
+
+
+**Interpretation:**  
+- Approximately **59.42%** of all orders were successfully completed, indicating that the majority of customer purchases were fulfilled.
+- However, nearly **40%** of orders remain either cancelled or pending, representing a significant operational concern.
+- The cancellation rate (**20.50%**) is slightly higher than the pending rate (**20.08%**), suggesting potential issues related to inventory availability, payment completion, customer behavior, or fulfillment processes.
+- A high percentage of pending orders may indicate delays in order processing, payment verification, or logistics operations.
+
+**Business Recommendations:**  
+1. Investigate the primary reasons behind order cancellations and implement corrective measures.
+2. Monitor pending orders closely and establish service-level targets for order processing.
+3. Improve customer communication during the order fulfillment process to reduce cancellation risk.
+4. Analyze cancellation and pending rates by city, payment method, and product category to identify specific operational bottlenecks.
+5. Develop a real-time order status dashboard for proactive monitoring and decision-making.
 
 
 
-6. **Completed, pending, and cancelled order rates**
-7. **Total revenue generated**
-8. **Product categories contributing most to revenue**
-9. **Highest revenue-generating products**
-10. **Average order value and average basket size**
+6. **Total revenue generated**
+
+
+7. **Product categories contributing most to revenue**
+
+
+8. **Highest revenue-generating products**
+
+
+9. **Average order value and average basket size**
+
+
 25. **Daily business report including orders, items, completed orders, cancelled orders, and revenue**
 
 #### 2. Customer Behavior Analysis
