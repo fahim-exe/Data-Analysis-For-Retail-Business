@@ -1,4 +1,3 @@
-<img width="3600" height="1800" alt="qn13_gender_category_qty" src="https://github.com/user-attachments/assets/09ee8459-6023-4140-a251-0f0fd449a679" />
 # UrbanCart Retail Shop Analytics Project
 
 
