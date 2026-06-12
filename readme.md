@@ -227,7 +227,23 @@ This section evaluates UrbanCart’s overall business performance by analyzing t
 
 #### 1. Sales Performance Analysis
 1. **Total number of orders received.**
-  
+  The city-level sales analysis shows that Chattogram generated the highest number of orders and the highest total revenue. Barishal and Sylhet also performed strongly, with the same number of orders but slightly different revenue values.
+
+| City        | Total Orders | Total Revenue |
+|------------|-------------:|--------------:|
+| Chattogram | 99 | 181,812 |
+| Barishal   | 93 | 176,536 |
+| Sylhet     | 93 | 174,507 |
+| Cumilla    | 88 | 172,860 |
+| Rangpur    | 71 | 124,761 |
+
+**Interpretation:**  
+Chattogram is UrbanCart’s strongest city market because it leads in both order volume and revenue. Barishal and Sylhet show strong customer activity, but Barishal generated slightly higher revenue than Sylhet, which may indicate a higher average order value. Rangpur generated the lowest orders and revenue among these cities, suggesting lower market penetration or weaker customer engagement.
+
+**Business Recommendation:**  
+UrbanCart should prioritize Chattogram for inventory planning, marketing campaigns, and customer retention programs. Barishal and Sylhet should be targeted with upselling and product recommendation strategies. Rangpur may require promotional campaigns or customer acquisition efforts to increase order volume.
+
+**Visualization:**  
   
 
 3. **Cities generating the highest orders and revenue**
