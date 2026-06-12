@@ -558,6 +558,52 @@ Gazipur has the highest cancellation rate at **27.18%**, followed by Rangpur and
 
 ---
 14. **Customer behavior over time since account creation**
+**Business Question:**  
+How does customer purchasing behavior change over time since account creation?
+
+**Data Quality Note:**  
+Two versions of the analysis were created:
+
+- **Taking every value:** Missing `created_at` values were filled using the customer's earliest order date.
+- **Omitting null values:** Customers with missing `created_at` values were excluded from the analysis.
+
+**Analysis: With Null Values Handled**
+
+| Account Age Bucket | Active Customers | Completed Orders | Orders per Active Customer | Avg Units per Order | Avg Order Value Proxy | Gross Sales Proxy |
+|---|---:|---:|---:|---:|---:|---:|
+| 0-30 days | 96 | 290 | 3.02 | 9.54 | 1,801.86 | 522,539 |
+| 31-60 days | 96 | 241 | 2.51 | 9.52 | 1,794.71 | 432,524 |
+| 61-90 days | 80 | 182 | 2.28 | 9.57 | 1,898.60 | 345,545 |
+
+**Analysis: Without Null Created Date Rows**
+
+| Account Age Bucket | Active Customers | Completed Orders | Orders per Active Customer | Avg Units per Order | Avg Order Value Proxy | Gross Sales Proxy |
+|---|---:|---:|---:|---:|---:|---:|
+| 0-30 days | 88 | 272 | 3.09 | 9.53 | 1,791.47 | 487,279 |
+| 31-60 days | 88 | 225 | 2.56 | 9.58 | 1,816.63 | 408,742 |
+| 61-90 days | 73 | 167 | 2.29 | 9.56 | 1,828.59 | 305,375 |
+
+<img width="2957" height="1768" alt="qn14_customer_behavior_account_age" src="https://github.com/user-attachments/assets/17743be1-3fb5-4128-b775-627759abdbd3" />
+
+
+**Interpretation:**  
+Customer purchasing activity is strongest within the first **0-30 days** after account creation. In both versions of the analysis, orders per active customer decline as account age increases. This suggests that newer customers are more active shortly after registration, but engagement gradually decreases over time.
+
+Average units per order remain stable across all account-age groups, which means customers continue to buy a similar number of items per order. However, total completed orders and gross sales proxy decrease in older account-age groups, mainly due to lower customer activity.
+
+The version with null values handled gives a broader customer view, while the version excluding null values is cleaner but removes some customer records. For business reporting, the **w_null version is more useful**, but the imputation method should be clearly documented.
+
+**Business Recommendations:**  
+1. Strengthen customer retention campaigns after the first 30 days.
+2. Send personalized offers to customers entering the 31-60 day period.
+3. Track repeat purchase rate by account-age bucket.
+4. Use the `w_null` version for business interpretation, but keep the `wo_null` version for data-quality validation.
+5. Improve customer registration data collection to reduce missing `created_at` values.
+
+
+
+
+
 ---
 15. **Customers who ordered in October but not December**
 ---
