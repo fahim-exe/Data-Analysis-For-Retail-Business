@@ -90,7 +90,8 @@ This section evaluates UrbanCart’s overall business performance by analyzing t
 
 #### 1. Sales Performance Analysis
 1. **Total number of orders received.**
-2. **Cities generating the highest orders and revenue**
+   | Total orders recieved | 1200 |
+3. **Cities generating the highest orders and revenue**
 4. **Monthly trend of total orders**
 5. **Completed, pending, and cancelled order rates**
 6. **Total revenue generated**
