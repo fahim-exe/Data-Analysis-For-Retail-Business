@@ -673,11 +673,56 @@ These customers represent **highly engaged repeat buyers**. Maintaining and nurt
 #### 3. Product and Category Performance
 This section identifies the best-performing product categories and individual products based on revenue and sales volume. It also compares product prices with category average prices to understand pricing differences.
 
-7. **Product categories contributing most to revenue**
-8. **Highest revenue-generating products**
+---
 13. **Purchasing pattern differences by gender and category**
+**Business Question:**  
+Do male and female customers show different purchasing patterns by category?
+
+**Analysis:**  
+The analysis compares quantity and revenue contributions by gender for each product category.
+
+**Sample Output Table:**
+
+| Category      | Gender | Quantity % in Gender | Revenue % in Gender |
+|---------------|--------|-------------------:|------------------:|
+| Fashion       | Female | 11.11              | 22.53             |
+| Grocery       | Female | 24.06              | 20.61             |
+| Electronics   | Female | 5.09               | 15.89             |
+| Beverages     | Female | 13.90              | 10.33             |
+| Health        | Female | 5.93               | 8.62              |
+| Fashion       | Male   | 11.66              | 22.34             |
+| Grocery       | Male   | 25.87              | 23.47             |
+| Electronics   | Male   | 4.86               | 17.70             |
+
+**Visualization:** 
+<img width="3600" height="1800" alt="qn13_gender_category_revenue" src="https://github.com/user-attachments/assets/3d0f294f-0f8e-4f28-9615-35cfb4c23a81" />
+
+
+**Interpretation:**  
+- **Grocery** is more frequently purchased by males (25.87% of male purchases) than females (24.06%), but females generate significant revenue in Fashion and Electronics.  
+- **Fashion** shows a similar revenue contribution (~22%) for both genders, indicating balanced engagement.  
+- **Electronics** revenue is higher among males (17.70%) than females (15.89%), though females purchase fewer units.  
+- Certain categories like **Dairy, Home Care, Poultry, and Snacks** contribute more modestly, but gender preferences are evident.  
+
+These differences indicate that **gender-based marketing and product recommendations** can improve targeting, cross-selling, and personalized campaigns.
+
+**Business Recommendations:**  
+1. Design targeted promotions based on gender-category patterns.  
+2. Recommend Electronics more aggressively to male customers.  
+3. Highlight Fashion and Grocery items to both genders due to balanced revenue contributions.  
+4. Use these insights for personalized email campaigns and on-site recommendations.
+
+ 
+
+
+---
+
+
 22. **Difference between category average price and product price**
 
+
+
+---
 #### 4. Inventory Risk Analysis
 This section identifies products that may be at risk of stock-out by comparing sales volume with available inventory. These insights can help UrbanCart improve inventory planning and avoid lost sales.
 
