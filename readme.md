@@ -34,7 +34,7 @@ This project answers 25 business questions, including:
 
 1. Total number of orders received.
 2. Cities generating the highest orders and revenue.
-3. Percentage of customers using Gmail.
+3. Percentage of customers using email provide.
 4. Monthly trend of total orders.
 5. Completed, pending, and cancelled order rates.
 6. Total revenue generated.
@@ -252,17 +252,24 @@ Chattogram is UrbanCart’s strongest city market because it leads in both order
 **Business Recommendation:**  
 UrbanCart should prioritize Chattogram for inventory planning, marketing campaigns, and customer retention programs. Barishal and Sylhet should be targeted with upselling and product recommendation strategies. Rangpur may require promotional campaigns or customer acquisition efforts to increase order volume.
 
-
-
-
-
 4. **Monthly trend of total orders**
-5. **Completed, pending, and cancelled order rates**
-6. **Total revenue generated**
-7. **Product categories contributing most to revenue**
-8. **Highest revenue-generating products**
-9. **Average order value and average basket size**
-5. **Daily business report including orders, items, completed orders, cancelled orders, and revenue**
+   Monthly order volume increased from 243 orders in September 2025 to a peak of 413 orders in October 2025. Orders then declined to 371 in November and dropped further to 173 in December. The December figure should be interpreted carefully because the dataset may contain only part of the month rather than a complete monthly period.
+
+  | order_month        | total_orders |
+    |------------|-------------:|
+    | 2025-09 | 243 |
+    | 2025-10   | 413 | 
+    | 2025-11     | 371 | 
+    | 2025-12    | 173 |
+   
+
+
+6. **Completed, pending, and cancelled order rates**
+7. **Total revenue generated**
+8. **Product categories contributing most to revenue**
+9. **Highest revenue-generating products**
+10. **Average order value and average basket size**
+25. **Daily business report including orders, items, completed orders, cancelled orders, and revenue**
 
 #### 2. Customer Behavior Analysis
 This section examines customer contribution, Gmail usage, repeat purchasing behavior, customer activity across months, purchasing behavior since account creation, and differences in purchasing patterns by gender and city.
