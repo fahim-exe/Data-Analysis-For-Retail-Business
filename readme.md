@@ -766,13 +766,102 @@ Large positive price differences may indicate premium products with higher margi
 ---
 #### 4. Inventory Risk Analysis
 This section identifies products that may be at risk of stock-out by comparing sales volume with available inventory. These insights can help UrbanCart improve inventory planning and avoid lost sales.
-
+---
 10. **Products at risk of stock-out**
+**Business Question:**  
+Which products are at risk of stock-out due to high sales volume and low inventory?
+
+**Analysis:**  
+Products with low or negative available stock after orders are identified as at risk of stock-out.  
+
+**Sample Output Table:**
+
+| Product ID | Product Name | Category     | Available Stock | Initial Stock |
+|-----------:|-------------|-------------|----------------|---------------|
+| 40         | Power Bank 10000mAh | Electronics | -103 | 90 |
+| 38         | Wallet (Men) | Fashion     | -28  | 150 |
+| 11         | Horlicks 500g | Health     | -2   | 180 |
+| 9          | Bru Coffee 200g | Beverages | 1    | 200 |
+| 39         | Ladies Bag | Fashion       | 31   | 150 |
+
+**Visualization:**  
+<img width="2967" height="1768" alt="q10_stockout_risk" src="https://github.com/user-attachments/assets/5a78cdc7-4f26-4746-be3a-347f31a3efc5" />
+
+
+**Interpretation:**  
+- Products with negative available stock (e.g., **Power Bank -103**, **Wallet -28**) are oversold and indicate critical stock shortages.  
+- Low stock products (available stock < 10) are also at risk of running out, potentially causing lost sales or customer dissatisfaction.  
+- Maintaining a buffer for high-demand products and monitoring inventory trends is essential.
+
+**Business Recommendations:**  
+1. Replenish oversold items immediately to avoid stock-out.  
+2. Monitor inventory levels in real-time for high-demand products.  
+3. Consider predictive inventory management using sales trends.  
+4. Apply safety stock strategies for critical and fast-selling items.  
+5. Review pricing or promotions to manage demand spikes for low-stock items.
+
+
+
+---
+
 
 #### 5. Payment Method Analysis
 This section evaluates which payment methods are used most frequently, whether payment method is related to order status, which cities prefer specific payment methods, and whether higher-value orders are associated with particular payment methods.
 
+---
 17. **Most frequently used payment methods**
+**Business Question:**  
+Which payment methods are used most frequently?
+
+**Data Note:**  
+Two versions of payment method usage were analyzed:
+
+- **All Orders:** Includes Completed, Pending, and Cancelled orders.
+- **Completed Orders:** Includes only successfully completed orders.
+
+**Analysis: All Orders**
+
+| Payment Method | Order Count | Usage Rate (%) |
+|---|---:|---:|
+| COD | 488 | 40.67 |
+| bKash | 349 | 29.08 |
+| Nagad | 235 | 19.58 |
+| Credit Card | 65 | 5.42 |
+| Debit Card | 63 | 5.25 |
+
+**Analysis: Completed Orders Only**
+
+| Payment Method | Completed Order Count | Usage Rate (%) |
+|---|---:|---:|
+| COD | 300 | 42.08 |
+| bKash | 202 | 28.33 |
+| Nagad | 137 | 19.21 |
+| Credit Card | 39 | 5.47 |
+| Debit Card | 35 | 4.91 |
+
+**Visualization:** 
+<img width="2967" height="1768" alt="qn17_payment_method_usage" src="https://github.com/user-attachments/assets/d4556582-e8b9-4ab7-90c2-204314f34c16" />
+
+
+**Interpretation:**  
+COD is the most frequently used payment method in both all orders and completed orders. It accounts for **40.67%** of all orders and **42.08%** of completed orders. This indicates that UrbanCart customers strongly prefer cash-on-delivery.
+
+bKash is the second most used method, followed by Nagad. Card-based payments have very low adoption, with Credit Card and Debit Card each contributing around 5% of payment usage.
+
+The completed-order view is more useful for understanding successful transaction behavior, while the all-order view is useful for understanding overall customer payment selection.
+
+**Business Recommendations:**  
+1. Maintain COD as a key payment option because it is the dominant customer preference.
+2. Improve digital payment adoption through bKash and Nagad promotions.
+3. Investigate whether COD orders have higher cancellation risk.
+4. Review card payment experience because usage is very low.
+5. Track payment method performance separately for all orders and completed orders.
+
+
+
+
+---
+
 18. **Relationship between payment method and order status**
 19. **City-level payment method preferences**
 20. **Payment methods associated with higher-value orders**
