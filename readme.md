@@ -230,6 +230,7 @@ This section evaluates UrbanCart’s overall business performance by analyzing t
    | Metric | Value|
    |---------|-------|
    |Total Number of Orders | 1200 |
+2. **Cities generating the highest orders and revenue**
   The city-level sales analysis shows that Chattogram generated the highest number of orders and the highest total revenue. Barishal and Sylhet also performed strongly, with the same number of orders but slightly different revenue values.
 
 | City        | Total Orders | Total Revenue |
@@ -254,7 +255,7 @@ UrbanCart should prioritize Chattogram for inventory planning, marketing campaig
 **Visualization:**  
 
 
-3. **Cities generating the highest orders and revenue**
+
 4. **Monthly trend of total orders**
 5. **Completed, pending, and cancelled order rates**
 6. **Total revenue generated**
