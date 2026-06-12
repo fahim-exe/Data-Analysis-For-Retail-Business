@@ -1,5 +1,196 @@
-# Data Analysis For UrbanCart 
-(Currently working on this project, only visualization to be done)
+# UrbanCart Retail Shop Analytics Project
+
+### 🧠 Project Goal
+
+To use SQL to analyze UrbanCart’s transactional retail data and convert it into meaningful business insights that help management improve revenue, understand customer behavior, optimize inventory, evaluate product performance, and support better business decisions.
+
+### Project Overview
+
+UrbanCart is a growing online retail company operating across multiple cities and selling a wide range of consumer products. As the business continues to process a large volume of customer orders, management wants to use data more effectively to improve revenue, understand customer behavior, optimize product performance, manage inventory risk, and evaluate payment preferences.
+
+This project uses SQL-based analysis to examine UrbanCart’s transactional business data and answer 25 real-world business questions. The analysis focuses on sales performance, customer segmentation, product revenue contribution, order status, cancellation behavior, stock-out risk, product bundling opportunities, and payment method usage.
+
+The final goal of this project is to convert raw transactional data into meaningful business insights that can support data-driven decision-making.
+
+### Project Objectives
+
+The main objectives of this project are:
+
+* Analyze UrbanCart’s total sales, orders, revenue, and customer activity.
+* Identify top-performing cities, products, categories, and customers.
+* Understand customer purchasing behavior across time, gender, city, and account age.
+* Evaluate order status patterns, including completed, pending, and cancelled orders.
+* Detect inventory risks by identifying products with high sales volume and low stock.
+* Analyze payment method usage and its relationship with order value and order status.
+* Identify frequently purchased product pairs for bundling and recommendation strategies.
+* Generate daily, monthly, and operational reports for business monitoring.
+* Provide actionable business recommendations based on the analysis.
+
+### Business Questions Addressed
+
+This project answers 25 business questions, including:
+
+1. Total number of orders received.
+2. Cities generating the highest orders and revenue.
+3. Percentage of customers using Gmail.
+4. Monthly trend of total orders.
+5. Completed, pending, and cancelled order rates.
+6. Total revenue generated.
+7. Product categories contributing most to revenue.
+8. Highest revenue-generating products.
+9. Average order value and average basket size.
+10. Products at risk of stock-out.
+11. Highest revenue-contributing customers.
+12. Cancellation rate by city and customer.
+13. Purchasing pattern differences by gender and category.
+14. Customer behavior over time since account creation.
+15. Customers who ordered in October but not December.
+16. Customers who ordered in both October and December.
+17. Most frequently used payment methods.
+18. Relationship between payment method and order status.
+19. City-level payment method preferences.
+20. Payment methods associated with higher-value orders.
+21. Average items per order by payment method.
+22. Difference between category average price and product price.
+23. Most frequently purchased product pairs.
+24. Product pairs generating the highest combined revenue.
+25. Daily business report including orders, items, completed orders, cancelled orders, and revenue.
+
+### Repository Structure
+
+```text
+UrbanCart-Retail-Analytics/
+│
+├── README.md
+│
+├── sql/
+│   ├── 01_sales_performance.sql
+│   ├── 02_customer_behavior.sql
+│   ├── 03_product_inventory_analysis.sql
+│   ├── 04_payment_analysis.sql
+│   ├── 05_product_pair_analysis.sql
+│   └── 06_daily_report.sql
+│
+├── outputs/
+│   ├── sales_summary.csv
+│   ├── city_performance.csv
+│   ├── product_performance.csv
+│   ├── payment_analysis.csv
+│   └── daily_report.csv
+│
+├── visuals/
+│   ├── monthly_order_trend.png
+│   ├── revenue_by_category.png
+│   ├── top_products_by_revenue.png
+│   ├── payment_method_usage.png
+│   └── city_revenue_performance.png
+│
+└── docs/
+    └── er_diagram.png
+```
+
+### Analysis Areas
+
+#### 1. Sales Performance Analysis
+
+This section evaluates UrbanCart’s overall business performance by analyzing total orders, total revenue, average order value, monthly order trends, city-wise revenue, and daily business activity.
+
+#### 2. Customer Behavior Analysis
+
+This section examines customer contribution, Gmail usage, repeat purchasing behavior, customer activity across months, purchasing behavior since account creation, and differences in purchasing patterns by gender and city.
+
+#### 3. Product and Category Performance
+
+This section identifies the best-performing product categories and individual products based on revenue and sales volume. It also compares product prices with category average prices to understand pricing differences.
+
+#### 4. Inventory Risk Analysis
+
+This section identifies products that may be at risk of stock-out by comparing sales volume with available inventory. These insights can help UrbanCart improve inventory planning and avoid lost sales.
+
+#### 5. Payment Method Analysis
+
+This section evaluates which payment methods are used most frequently, whether payment method is related to order status, which cities prefer specific payment methods, and whether higher-value orders are associated with particular payment methods.
+
+#### 6. Product Pair and Basket Analysis
+
+This section identifies products frequently purchased together in the same order and product pairs that generate the highest combined revenue. These findings can support cross-selling, bundling, and recommendation strategies.
+
+### Key Insights and Findings
+
+The analysis is expected to generate insights such as:
+
+* Which cities are the strongest revenue contributors.
+* Which product categories drive the majority of revenue.
+* Which products should be prioritized for promotion or inventory planning.
+* Which customers contribute the highest lifetime revenue.
+* Whether cancellations are concentrated in specific cities or customer groups.
+* Which payment methods are most reliable or associated with higher order values.
+* Which product pairs can be used for bundle offers and recommendation campaigns.
+* Whether customer activity increases or decreases over time after account creation.
+
+### Visualizations
+
+The project includes charts and visualizations to support business storytelling, such as:
+
+* Monthly order trend chart.
+* Revenue by city.
+* Revenue by product category.
+* Top products by revenue.
+* Payment method usage distribution.
+* Completed, pending, and cancelled order rate.
+* Daily order and revenue trend.
+* Frequently purchased product pairs.
+
+### Business Recommendations
+
+Based on the analysis, UrbanCart can take the following actions:
+
+* Focus marketing campaigns on cities with high revenue and strong order volume.
+* Promote top-performing categories and products through targeted campaigns.
+* Monitor high-demand, low-stock products to reduce stock-out risk.
+* Use product-pair analysis to create bundle offers and personalized recommendations.
+* Investigate cities or customers with high cancellation rates.
+* Improve payment experience by prioritizing the most frequently used and successful payment methods.
+* Track daily and monthly trends to support operational planning.
+* Use high-value customer analysis to design loyalty and retention programs.
+
+### Tools Used
+
+| Tool   | Purpose |
+|--------|---------|
+| SQL | Data cleaning, scoring, filtering |
+| RDBMS | Connect multiple table data |
+| Excel  | Visualization & Pivoting |
+| Python | Visualization |
+| ER Diagram tool | ERD Visualization |
+|GitHub | Store, track, collaborate & manage data analysis |
+
+
+* SQL
+* Relational Database Management System
+* GitHub
+* Pthon, Spreadsheet or BI tool for visualization
+* ER Diagram tool
+
+## Final Deliverables
+
+The project deliverables include:
+
+* SQL scripts answering all 25 business questions.
+* README documentation explaining the project and findings.
+* Output tables or result files.
+* Charts and visualizations.
+* ER diagram.
+* Business recommendations based on analytical findings.
+
+## Important Note
+
+This README does not include SQL code. All SQL queries are stored separately in the `sql/` folder, following the assignment requirements.
+
+## Conclusion
+
+This project demonstrates how SQL can be used to analyze retail transaction data and generate business insights. The analysis supports UrbanCart’s goals of improving revenue, understanding customer behavior, optimizing inventory, strengthening product strategy, and making better operational decisions.
+
 
 ## Dataset Overview
 
