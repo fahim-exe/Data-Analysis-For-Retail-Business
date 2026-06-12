@@ -58,35 +58,6 @@ This project answers 25 business questions, including:
 24. Product pairs generating the highest combined revenue.
 25. Daily business report including orders, items, completed orders, cancelled orders, and revenue.
 
-### Repository Structure
-
-```text
-UrbanCart-Retail-Analytics/
-│
-├── README.md
-│
-├── sql_code_for_analysis
-│
-├── DataSet/
-│   ├── DimCustomers.csv
-│   ├── DimProducts.csv
-│   ├── FactOrder.csv
-│   ├── FactOrderItems.csv
-│   └── FactPayment.csv
-│
-├── Images/
-│   ├── monthly_order_trend.png
-│   ├── revenue_by_category.png
-│   ├── top_products_by_revenue.png
-│   ├── payment_method_usage.png
-│   └── city_revenue_performance.png
-│
-└── docs/
-    └── er_diagram.png
-```
-
-
-
 ## Dataset Overview
 
 This repository contains a structured **e-commerce sales dataset** designed for SQL practice, data cleaning, exploratory data analysis, dashboard development, and business-intelligence projects.
@@ -1175,6 +1146,42 @@ This README does not include SQL code. All SQL queries are stored separately in 
 
 This project demonstrates how SQL can be used to analyze retail transaction data and generate business insights. The analysis supports UrbanCart’s goals of improving revenue, understanding customer behavior, optimizing inventory, strengthening product strategy, and making better operational decisions.
 
+
+---
+
+### Repository Structure
+
+```text
+UrbanCart-Retail-Analytics/
+│
+├── README.md
+│
+├── sql_code_for_analysis
+│
+│
+├──python_code_for_visualization.ipynb
+│
+|
+├── DataSet/
+│   ├── DimCustomers.csv
+│   ├── DimProducts.csv
+│   ├── FactOrder.csv
+│   ├── FactOrderItems.csv
+│   └── FactPayment.csv
+│
+├── Images/
+│   ├── monthly_order_trend.png
+│   ├── revenue_by_category.png
+│   ├── top_products_by_revenue.png
+│   ├── .......
+│   ├── .......
+│   ├── city_revenue_performance.png
+│   ├── city_revenue_performance.png
+    └──
+    
+│
+└── ..............
+```
 
 ---
 
