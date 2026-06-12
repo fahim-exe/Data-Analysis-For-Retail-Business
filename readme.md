@@ -863,16 +863,248 @@ The completed-order view is more useful for understanding successful transaction
 ---
 
 18. **Relationship between payment method and order status**
-19. **City-level payment method preferences**
-20. **Payment methods associated with higher-value orders**
-21. **Average items per order by payment method**
 
+**Business Question:**  
+Is there any relationship between payment method and order status?
+
+**Analysis:**  
+The order status distribution was analyzed across different payment methods to understand whether payment choice influences order completion, cancellation, or pending rates.
+
+| Payment Method | Order Status | Orders | Rate (%) |
+|---|---|---:|---:|
+| COD | Completed | 300 | 61.48 |
+| COD | Cancelled | 97 | 19.88 |
+| COD | Pending | 91 | 18.65 |
+| bKash | Completed | 202 | 57.88 |
+| bKash | Cancelled | 73 | 20.92 |
+| bKash | Pending | 74 | 21.20 |
+| Nagad | Completed | 137 | 58.30 |
+| Nagad | Cancelled | 47 | 20.00 |
+| Nagad | Pending | 51 | 21.70 |
+| Credit Card | Completed | 39 | 60.00 |
+| Credit Card | Cancelled | 11 | 16.92 |
+| Credit Card | Pending | 15 | 23.08 |
+| Debit Card | Completed | 35 | 55.56 |
+| Debit Card | Cancelled | 18 | 28.57 |
+| Debit Card | Pending | 10 | 15.87 |
+
+**Visualization:** 
+
+<img width="2967" height="1768" alt="qn18_payment_method_order_status" src="https://github.com/user-attachments/assets/da911385-cf0c-4f6e-974c-cc4ffd9cef2c" />
+
+
+**Interpretation:**  
+The analysis indicates that order completion rates are relatively similar across payment methods, ranging from approximately **55% to 61%**.
+
+**COD** shows the highest completion rate (**61.48%**) and remains the dominant payment method among customers. **Credit Card** transactions also demonstrate a strong completion rate (**60.00%**) and the lowest cancellation rate (**16.92%**).
+
+In contrast, **Debit Card** orders have the highest cancellation rate (**28.57%**), suggesting potential payment friction, customer behavior differences, or transaction-related issues.
+
+Overall, payment method appears to have a moderate influence on order outcomes, with card-based payments generally showing lower volume but slightly different completion and cancellation patterns.
+
+**Business Recommendations:**  
+1. Investigate why Debit Card transactions experience higher cancellation rates.
+2. Encourage customers to adopt digital payment methods through promotional incentives.
+3. Monitor payment-method-specific cancellation trends regularly.
+4. Analyze customer demographics associated with each payment method.
+5. Improve payment experience for lower-performing payment channels.
+
+ 
+
+---
+19. **City-level payment method preferences**
+
+**Business Question:**  
+Do certain cities prefer specific payment methods?
+
+**Analysis:**  
+Payment method usage was analyzed per city to identify local preferences. A sample of results:
+
+| City         | Payment Method | Orders | % of City Orders |
+|-------------|----------------|-------:|----------------:|
+| Barishal    | COD           | 76     | 43.93           |
+| Barishal    | bKash         | 44     | 25.43           |
+| Barishal    | Nagad         | 28     | 16.18           |
+| Barishal    | Debit Card    | 15     | 8.67            |
+| Barishal    | Credit Card   | 10     | 5.78            |
+| Chattogram  | COD           | 56     | 40.00           |
+| Chattogram  | bKash         | 44     | 31.43           |
+| Chattogram  | Nagad         | 34     | 24.29           |
+| Chattogram  | Credit Card   | 4      | 2.86            |
+| Chattogram  | Debit Card    | 2      | 1.43            |
+
+**Visualization:**  
+<img width="3567" height="1767" alt="qn19_city_payment_preferences" src="https://github.com/user-attachments/assets/3f9107d0-3c3a-4ce2-981f-1fa92c0f5d14" />
+
+
+**Interpretation:**  
+- **COD** is the most preferred payment method across all cities.  
+- **bKash** has significant adoption in multiple cities, especially Chattogram and Barishal.  
+- Card-based payments (Credit and Debit) are least popular in most cities.  
+- Payment preferences vary slightly by city: e.g., in Dhaka, bKash slightly overtakes COD (35.8% vs 33.3%).
+
+**Business Recommendations:**  
+1. Maintain COD as a default option in all cities.  
+2. Encourage bKash adoption in cities with lower usage through promotions.  
+3. Investigate barriers for card payments in cities with low adoption.  
+4. Use city-specific payment trends to tailor marketing and checkout options.
+
+
+---
+20. **Payment methods associated with higher-value orders**
+**Business Question:**  
+Are higher-value orders associated with specific payment methods?
+
+**Analysis:**  
+The order value range and number of completed orders were analyzed per payment method.
+
+| Payment Method | Completed Orders | Lowest Order Value (BDT) | Highest Order Value (BDT) |
+|----------------|----------------:|-------------------------:|--------------------------:|
+| Credit Card    | 39               | 544                       | 4,676                     |
+| Nagad          | 137              | 131                       | 5,348                     |
+| Debit Card     | 35               | 499                       | 4,530                     |
+| COD            | 300              | 226                       | 7,190                     |
+| bKash          | 202              | 255                       | 5,710                     |
+
+**Visualization:**  
+<img width="2966" height="1768" alt="qn20_high_value_orders" src="https://github.com/user-attachments/assets/ecaaf676-6e02-49a0-98ea-fba81d9e1831" />
+
+
+**Interpretation:**  
+- **COD** handles the highest-value order (BDT 7,190) and the largest number of completed orders (300), indicating its continued popularity even for large purchases.  
+- **bKash** and **Nagad** also handle relatively high-value orders, with maximum order values exceeding BDT 5,000.  
+- **Credit Card** and **Debit Card** have fewer orders but maintain moderately high maximum order values, suggesting selective usage for higher-value transactions.
+
+**Business Recommendations:**  
+1. Ensure high-value order processing is optimized for COD, bKash, and Nagad.  
+2. Encourage digital payments for large orders to reduce cash handling risk.  
+3. Monitor payment method reliability for high-value transactions to reduce failed deliveries.  
+4. Consider incentives or promotions to increase card usage for high-value orders.
+
+
+---
+
+21. **Average items per order by payment method**
+**Business Question:**  
+What is the average number of items per order by payment method?
+
+**Analysis:**  
+The average basket size (items per order) and product count per order were analyzed across different payment methods.
+
+| Payment Method | Total Orders | Avg Products per Order | Avg Units per Order |
+|----------------|-------------:|------------------------:|---------------------:|
+| COD            | 488          | 3.85                    | 9.55                 |
+| bKash          | 349          | 3.87                    | 9.47                 |
+| Nagad          | 235          | 3.84                    | 9.76                 |
+| Credit Card    | 65           | 3.78                    | 9.28                 |
+| Debit Card     | 63           | 3.89                    | 10.30                |
+
+**Visualization:** 
+<img width="2367" height="1468" alt="qn21_avg_units_per_order" src="https://github.com/user-attachments/assets/fde8bdff-6bd8-4092-8aa3-314bfdabbd86" />
+
+
+
+**Interpretation:**  
+- **Debit Card users** have the highest average units per order (10.30), indicating they tend to purchase slightly larger baskets per transaction.  
+- All payment methods show relatively consistent product counts per order (around 3.8–3.9 products), meaning basket composition is stable across payment types.  
+- COD, bKash, and Nagad dominate in total order volume, so their contribution to overall basket behavior is the most significant.
+
+Overall, payment method does not strongly influence how many product types are purchased, but slight differences in unit quantity suggest behavioral variation in purchase size.
+
+**Business Recommendations:**  
+1. Encourage bundle promotions for Debit Card users due to higher basket size.  
+2. Maintain consistent UX across all payment methods since basket size is stable.  
+3. Analyze whether payment method influences product category mix.  
+4. Use COD, bKash, and Nagad as primary targets for cross-selling strategies.
+
+ 
+---
 #### 6. Product Pair and Basket Analysis
 This section identifies products frequently purchased together in the same order and product pairs that generate the highest combined revenue. These findings can support cross-selling, bundling, and recommendation strategies.
+---
+
 
 23. **Most frequently purchased product pairs**
-24. **Product pairs generating the highest combined revenue**
+**Business Question:**  
+Which product pairs are most frequently purchased together in the same order?
 
+**Analysis:**  
+Completed order data was used to identify product pairs purchased together, along with the number of times they appeared in the same order.
+
+**Sample Output Table:**
+
+| Product 1 ID | Product 2 ID | Times Ordered Together |
+|-------------:|-------------:|---------------------:|
+| 8            | 18           | 14                   |
+| 18           | 1            | 12                   |
+| 1            | 17           | 11                   |
+| 17           | 1            | 11                   |
+| 1            | 19           | 10                   |
+| 18           | 10           | 10                   |
+| 4            | 15           | 10                   |
+| 9            | 10           | 10                   |
+
+
+**Visualization:**  
+<img width="2968" height="1768" alt="qn23_top_product_pairs" src="https://github.com/user-attachments/assets/c0fc9943-a14e-4194-86a3-768859edbed0" />
+
+.
+
+**Interpretation:**  
+- Product IDs 8 and 18 are the most frequently purchased together (14 times), indicating a strong co-purchase relationship.  
+- Other high-frequency pairs suggest natural bundling or complementary product behavior.  
+- This information is valuable for designing promotions, product bundles, and recommendation systems.
+
+**Business Recommendations:**  
+1. Create bundle offers for top-selling product pairs.  
+2. Recommend paired products during checkout.  
+3. Use this data to optimize placement on the website for cross-selling.  
+4. Track changes over time to see emerging product pair trends.
+
+
+
+---
+24. **Product pairs generating the highest combined revenue**
+**Business Question:**  
+Which product pairs generate the highest total revenue when sold together?
+
+**Analysis:**  
+Product pair transactions were analyzed based on total revenue generated from combined purchases.
+
+**Sample Output Table:**
+
+| Product 1 | Product 2 | Times Ordered Together | Total Revenue (BDT) |
+|----------|-----------|------------------------:|---------------------:|
+| Product 1 | Product X |  - | 35,050 |
+| Product 9 | Product Y |  - | 29,150 |
+| Product 26 | Product Z | - | 26,870 |
+| Product 14 | Product A | - | 26,410 |
+| Product 15 | Product B | - | 26,334 |
+| Product 38 | Product C | - | 26,000 |
+| Product 36 | Product D | - | 25,460 |
+| Product 10 | Product E | - | 24,700 |
+| Product 2  | Product F | - | 22,970 |
+| Product 29 | Product G | - | 22,530 |
+
+**Visualization:**  
+
+<img width="2965" height="1768" alt="qn24_top_revenue_pairs" src="https://github.com/user-attachments/assets/c62b5b0a-ef54-457b-96dc-8154e1d390b3" />
+
+**Interpretation:**  
+- The highest revenue-generating product pair contributes **BDT 35,050**, indicating strong cross-selling value.  
+- Several product pairs consistently generate revenue above **BDT 25,000**, showing strong bundling potential.  
+- These pairs are more valuable than frequency-only pairs because they directly reflect **business profitability**, not just co-purchase behavior.
+
+**Business Recommendations:**  
+1. Prioritize top revenue-generating pairs for bundle promotions.  
+2. Use recommendation engines to suggest high-revenue pair products at checkout.  
+3. Focus marketing campaigns on high-value combinations rather than only frequent pairs.  
+4. Analyze margin contribution of these pairs to maximize profitability.
+
+
+
+
+---
 
 ### Key Insights and Findings
 
