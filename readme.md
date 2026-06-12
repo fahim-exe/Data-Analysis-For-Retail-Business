@@ -65,22 +65,16 @@ UrbanCart-Retail-Analytics/
 │
 ├── README.md
 │
-├── sql/
-│   ├── 01_sales_performance.sql
-│   ├── 02_customer_behavior.sql
-│   ├── 03_product_inventory_analysis.sql
-│   ├── 04_payment_analysis.sql
-│   ├── 05_product_pair_analysis.sql
-│   └── 06_daily_report.sql
+├── sql_code_for_analysis
 │
-├── outputs/
-│   ├── sales_summary.csv
-│   ├── city_performance.csv
-│   ├── product_performance.csv
-│   ├── payment_analysis.csv
-│   └── daily_report.csv
+├── DataSet/
+│   ├── DimCustomers.csv
+│   ├── DimProducts.csv
+│   ├── FactOrder.csv
+│   ├── FactOrderItems.csv
+│   └── FactPayment.csv
 │
-├── visuals/
+├── Images/
 │   ├── monthly_order_trend.png
 │   ├── revenue_by_category.png
 │   ├── top_products_by_revenue.png
