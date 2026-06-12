@@ -618,6 +618,10 @@ A customer retention analysis was performed to identify customers who were activ
 |---------|------:|
 | Customers Ordered in October but Not in December | 17 |
 
+<img width="500" height="210" alt="image" src="https://github.com/user-attachments/assets/ba8b935e-84d6-442e-b883-fce13f0ff87d" />
+
+
+
 **Interpretation:**  
 A total of **17 customers** placed orders during October but did not return to make any purchases in December. These customers represent a potential churn segment because they demonstrated purchase intent previously but did not continue their engagement with UrbanCart.
 
