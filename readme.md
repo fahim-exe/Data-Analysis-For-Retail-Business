@@ -1,3 +1,4 @@
+<img width="3600" height="1800" alt="qn13_gender_category_qty" src="https://github.com/user-attachments/assets/09ee8459-6023-4140-a251-0f0fd449a679" />
 # UrbanCart Retail Shop Analytics Project
 
 
@@ -696,6 +697,10 @@ The analysis compares quantity and revenue contributions by gender for each prod
 
 **Visualization:** 
 <img width="3600" height="1800" alt="qn13_gender_category_revenue" src="https://github.com/user-attachments/assets/3d0f294f-0f8e-4f28-9615-35cfb4c23a81" />
+
+<img width="3600" height="1800" alt="qn13_gender_category_qty" src="https://github.com/user-attachments/assets/6fb5b585-5ac0-4953-bf33-2fc4a620cf7a" />
+
+
 
 
 **Interpretation:**  
