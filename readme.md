@@ -606,9 +606,38 @@ The version with null values handled gives a broader customer view, while the ve
 
 ---
 15. **Customers who ordered in October but not December**
+
+
+**Business Question:**  
+Generate a list of customers who ordered in October but did not place any orders in December.
+
+**Analysis:**  
+A customer retention analysis was performed to identify customers who were active during October but became inactive in December.
+
+| Metric | Value |
+|---------|------:|
+| Customers Ordered in October but Not in December | 17 |
+
+**Interpretation:**  
+A total of **17 customers** placed orders during October but did not return to make any purchases in December. These customers represent a potential churn segment because they demonstrated purchase intent previously but did not continue their engagement with UrbanCart.
+
+The presence of inactive customers over a relatively short period may indicate declining customer engagement, competitive alternatives, reduced purchase frequency, or a lack of effective retention strategies.
+
+Identifying these customers provides an opportunity for targeted remarketing campaigns and personalized promotions to reactivate their purchasing behavior.
+
+**Business Recommendations:**  
+1. Launch re-engagement campaigns targeting these inactive customers.
+2. Offer personalized discounts or promotional vouchers to encourage repeat purchases.
+3. Analyze their previous purchase categories to recommend relevant products.
+4. Implement customer lifecycle monitoring to identify churn risk earlier.
+5. Track repeat purchase rates as a key customer retention KPI.
 ---
+
+
 16. **Customers who ordered in both October and December**
 
+
+---
 #### 3. Product and Category Performance
 This section identifies the best-performing product categories and individual products based on revenue and sales volume. It also compares product prices with category average prices to understand pricing differences.
 
