@@ -237,6 +237,11 @@ This section evaluates UrbanCart’s overall business performance by analyzing t
 | Cumilla    | 88 | 172,860 |
 | Rangpur    | 71 | 124,761 |
 
+<img width="2665" height="1768" alt="q2_completed_orders_by_city" src="https://github.com/user-attachments/assets/c6a2a4f5-78a4-4a18-8e86-9709b4e19064" />
+
+<img width="2662" height="1768" alt="q2_completed_order_gross_sales_proxy_by_city" src="https://github.com/user-attachments/assets/a2016260-101b-4d12-b8c0-e471ef14b4f5" />
+
+
 **Interpretation:**  
 Chattogram is UrbanCart’s strongest city market because it leads in both order volume and revenue. Barishal and Sylhet show strong customer activity, but Barishal generated slightly higher revenue than Sylhet, which may indicate a higher average order value. Rangpur generated the lowest orders and revenue among these cities, suggesting lower market penetration or weaker customer engagement.
 
@@ -244,9 +249,6 @@ Chattogram is UrbanCart’s strongest city market because it leads in both order
 UrbanCart should prioritize Chattogram for inventory planning, marketing campaigns, and customer retention programs. Barishal and Sylhet should be targeted with upselling and product recommendation strategies. Rangpur may require promotional campaigns or customer acquisition efforts to increase order volume.
 
 **Visualization:**  
-<img width="2665" height="1768" alt="q2_completed_orders_by_city" src="https://github.com/user-attachments/assets/c6a2a4f5-78a4-4a18-8e86-9709b4e19064" />
-
-  <img width="2662" height="1768" alt="q2_completed_order_gross_sales_proxy_by_city" src="https://github.com/user-attachments/assets/a2016260-101b-4d12-b8c0-e471ef14b4f5" />
 
 
 3. **Cities generating the highest orders and revenue**
