@@ -1,8 +1,6 @@
 # UrbanCart Retail Shop Analytics Project
 
-### 🧠 Project Goal
 
-To use SQL to analyze UrbanCart’s transactional retail data and convert it into meaningful business insights that help management improve revenue, understand customer behavior, optimize inventory, evaluate product performance, and support better business decisions.
 
 ### Project Overview
 
@@ -11,6 +9,10 @@ UrbanCart is a growing online retail company operating across multiple cities an
 This project uses SQL-based analysis to examine UrbanCart’s transactional business data and answer 25 real-world business questions. The analysis focuses on sales performance, customer segmentation, product revenue contribution, order status, cancellation behavior, stock-out risk, product bundling opportunities, and payment method usage.
 
 The final goal of this project is to convert raw transactional data into meaningful business insights that can support data-driven decision-making.
+
+### 🧠 Project Goal
+
+To use SQL to analyze UrbanCart’s transactional retail data and convert it into meaningful business insights that help management improve revenue, understand customer behavior, optimize inventory, evaluate product performance, and support better business decisions.
 
 ### Project Objectives
 
