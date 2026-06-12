@@ -89,7 +89,7 @@ UrbanCart-Retail-Analytics/
 This section evaluates UrbanCart’s overall business performance by analyzing total orders, total revenue, average order value, monthly order trends, city-wise revenue, and daily business activity.
 
 #### 1. Sales Performance Analysis
-    ##### 1. Total number of orders received.
+    #####     1. Total number of orders received.
     ##### 2. Cities generating the highest orders and revenue
     ##### 4. Monthly trend of total orders
     ##### 5. Completed, pending, and cancelled order rates
