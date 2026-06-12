@@ -253,15 +253,34 @@ Chattogram is UrbanCart’s strongest city market because it leads in both order
 UrbanCart should prioritize Chattogram for inventory planning, marketing campaigns, and customer retention programs. Barishal and Sylhet should be targeted with upselling and product recommendation strategies. Rangpur may require promotional campaigns or customer acquisition efforts to increase order volume.
 
 4. **Monthly trend of total orders**
-   Monthly order volume increased from 243 orders in September 2025 to a peak of 413 orders in October 2025. Orders then declined to 371 in November and dropped further to 173 in December. The December figure should be interpreted carefully because the dataset may contain only part of the month rather than a complete monthly period.
-
-  | order_month        | total_orders |
-    |------------|-------------:|
-    | 2025-09 | 243 |
-    | 2025-10   | 413 | 
-    | 2025-11     | 371 | 
-    | 2025-12    | 173 |
    
+   **Business Question:**  
+What is the monthly trend of total orders over time?
+
+**Analysis:**  
+Aggregating orders by month shows the following trend:
+
+| Month     | Total Orders |
+|----------|--------------|
+| Sep 2025 | 243          |
+| Oct 2025 | 413          |
+| Nov 2025 | 371          |
+| Dec 2025 | 173          |
+
+**Interpretation:**  
+- The highest order volume occurred in **October 2025** (413 orders), indicating peak shopping activity.  
+- Orders decreased slightly in **November** and dropped significantly in **December**, which could be due to seasonality, promotions, or other operational factors.  
+- September showed a moderate start as the initial month in the dataset.
+
+**Business Recommendations:**  
+1. Prepare inventory and logistics for peak months like October.  
+2. Investigate reasons for December drop to adjust marketing campaigns or promotions.  
+3. Monitor monthly trends to plan staffing, inventory, and marketing efforts more efficiently.
+
+**Visualization:**  
+
+<img width="2355" height="1408" alt="q4_monthly_order_trend" src="https://github.com/user-attachments/assets/3860a8d1-1078-44e4-8fc5-d2973155f0e0" />
+
 
 
 6. **Completed, pending, and cancelled order rates**
