@@ -268,9 +268,7 @@ Aggregating orders by month shows the following trend:
 | Dec 2025 | 173          |
 
 **Interpretation:**  
-- The highest order volume occurred in **October 2025** (413 orders), indicating peak shopping activity.  
-- Orders decreased slightly in **November** and dropped significantly in **December**, which could be due to seasonality, promotions, or other operational factors.  
-- September showed a moderate start as the initial month in the dataset.
+The highest order volume occurred in **October 2025** (413 orders), indicating peak shopping activity. Orders decreased slightly in **November** and dropped significantly in **December**, which could be due to seasonality, promotions, or other operational factors. September showed a moderate start as the initial month in the dataset.
 
 **Business Recommendations:**  
 1. Prepare inventory and logistics for peak months like October.  
