@@ -522,6 +522,40 @@ Customer email provider data shows:
 
 ---
 12. **Cancellation rate by city and customer**
+**Business Question:**  
+Generate a list of cancellation rate by city.
+
+**Analysis:**  
+Cancellation rate was calculated by comparing cancelled orders against total orders for each city.
+
+| City | Total Orders | Cancelled Orders | Cancellation Rate (%) |
+|------|-------------:|-----------------:|----------------------:|
+| Gazipur | 103 | 28 | 27.18 |
+| Rangpur | 121 | 30 | 24.79 |
+| Barishal | 173 | 42 | 24.28 |
+| Rajshahi | 126 | 29 | 23.02 |
+| Dhaka | 81 | 17 | 20.99 |
+| Khulna | 121 | 24 | 19.83 |
+| Sylhet | 148 | 26 | 17.57 |
+| Narayanganj | 61 | 10 | 16.39 |
+| Chattogram | 140 | 22 | 15.71 |
+| Cumilla | 126 | 18 | 14.29 |
+
+**Visualization:**  
+<img width="2959" height="1768" alt="qn12_cancellation_rate_by_city" src="https://github.com/user-attachments/assets/05ffa24a-125a-4123-a32d-5c43695d424b" />
+
+
+**Interpretation:**  
+Gazipur has the highest cancellation rate at **27.18%**, followed by Rangpur and Barishal. This suggests that these cities may have operational, delivery, stock availability, or customer commitment issues. Cumilla and Chattogram show the lowest cancellation rates, indicating relatively stronger order completion performance.
+
+**Business Recommendations:**  
+1. Investigate cancellation reasons in Gazipur, Rangpur, and Barishal.
+2. Check whether cancellations are linked to payment method, delivery delay, or stock availability.
+3. Improve customer communication before delivery confirmation.
+4. Monitor city-level cancellation rates regularly as an operational KPI.
+
+
+
 ---
 14. **Customer behavior over time since account creation**
 ---
