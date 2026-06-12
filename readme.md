@@ -102,11 +102,11 @@ This section evaluates UrbanCart’s overall business performance by analyzing t
 #### 2. Customer Behavior Analysis
 This section examines customer contribution, Gmail usage, repeat purchasing behavior, customer activity across months, purchasing behavior since account creation, and differences in purchasing patterns by gender and city.
 
-##### 3. Percentage of customers using Gmail
-##### 12. Cancellation rate by city and customer
-##### 14. Customer behavior over time since account creation
-##### 15. Customers who ordered in October but not December
-##### 16. Customers who ordered in both October and December
+3. **Percentage of customers using Gmail**
+12. **Cancellation rate by city and customer**
+14. **Customer behavior over time since account creation**
+15. **Customers who ordered in October but not December**
+16. **Customers who ordered in both October and December**
 
 #### 3. Product and Category Performance
 This section identifies the best-performing product categories and individual products based on revenue and sales volume. It also compares product prices with category average prices to understand pricing differences.
