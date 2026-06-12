@@ -90,8 +90,11 @@ This section evaluates UrbanCart’s overall business performance by analyzing t
 
 #### 1. Sales Performance Analysis
 1. **Total number of orders received.**
-   | Total orders revieved   | 1200 |
-   -------------------
+   
+   | Metric               | Value  |
+|---------------------|-------|
+| Total Orders Received | 1,200 |
+
 3. **Cities generating the highest orders and revenue**
 4. **Monthly trend of total orders**
 5. **Completed, pending, and cancelled order rates**
