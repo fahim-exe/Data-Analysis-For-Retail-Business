@@ -89,7 +89,7 @@ UrbanCart-Retail-Analytics/
 This section evaluates UrbanCart’s overall business performance by analyzing total orders, total revenue, average order value, monthly order trends, city-wise revenue, and daily business activity.
 
 #### 1. Sales Performance Analysis
-* ##### 1. Total number of orders received.
+1. **Total number of orders received.**
 ##### 2. Cities generating the highest orders and revenue
 ##### 4. Monthly trend of total orders
 ##### 5. Completed, pending, and cancelled order rates
@@ -102,39 +102,39 @@ This section evaluates UrbanCart’s overall business performance by analyzing t
 #### 2. Customer Behavior Analysis
 This section examines customer contribution, Gmail usage, repeat purchasing behavior, customer activity across months, purchasing behavior since account creation, and differences in purchasing patterns by gender and city.
 
-    ##### 3. Percentage of customers using Gmail
-    ##### 12. Cancellation rate by city and customer
-    ##### 14. Customer behavior over time since account creation
-    ##### 15. Customers who ordered in October but not December
-    ##### 16. Customers who ordered in both October and December
+##### 3. Percentage of customers using Gmail
+##### 12. Cancellation rate by city and customer
+##### 14. Customer behavior over time since account creation
+##### 15. Customers who ordered in October but not December
+##### 16. Customers who ordered in both October and December
 
 #### 3. Product and Category Performance
 This section identifies the best-performing product categories and individual products based on revenue and sales volume. It also compares product prices with category average prices to understand pricing differences.
 
-    ##### 7. Product categories contributing most to revenue
-    ##### 8.Highest revenue-generating products
-    ##### 13. Purchasing pattern differences by gender and category
-    ##### 22. Difference between category average price and product price
+##### 7. Product categories contributing most to revenue
+##### 8.Highest revenue-generating products
+##### 13. Purchasing pattern differences by gender and category
+##### 22. Difference between category average price and product price
 
 #### 4. Inventory Risk Analysis
 This section identifies products that may be at risk of stock-out by comparing sales volume with available inventory. These insights can help UrbanCart improve inventory planning and avoid lost sales.
 
-    ##### 10. Products at risk of stock-out
+##### 10. Products at risk of stock-out
 
 #### 5. Payment Method Analysis
 This section evaluates which payment methods are used most frequently, whether payment method is related to order status, which cities prefer specific payment methods, and whether higher-value orders are associated with particular payment methods.
 
-    ##### 17. Most frequently used payment methods
-    ##### 18. Relationship between payment method and order status
-    ##### 19. City-level payment method preferences
-    ##### 20. Payment methods associated with higher-value orders
-    ##### 21. Average items per order by payment method
+##### 17. Most frequently used payment methods
+##### 18. Relationship between payment method and order status
+##### 19. City-level payment method preferences
+##### 20. Payment methods associated with higher-value orders
+##### 21. Average items per order by payment method
 
 #### 6. Product Pair and Basket Analysis
 This section identifies products frequently purchased together in the same order and product pairs that generate the highest combined revenue. These findings can support cross-selling, bundling, and recommendation strategies.
 
-    ##### 23. Most frequently purchased product pairs
-    ##### 24. Product pairs generating the highest combined revenue
+##### 23. Most frequently purchased product pairs
+##### 24. Product pairs generating the highest combined revenue
 
 
 ### Key Insights and Findings
