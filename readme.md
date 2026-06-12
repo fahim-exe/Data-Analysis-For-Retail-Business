@@ -168,12 +168,6 @@ Based on the analysis, UrbanCart can take the following actions:
 |GitHub | Store, track, collaborate & manage data analysis |
 
 
-* SQL
-* Relational Database Management System
-* GitHub
-* Pthon, Spreadsheet or BI tool for visualization
-* ER Diagram tool
-
 ## Final Deliverables
 
 The project deliverables include:
