@@ -724,6 +724,42 @@ These differences indicate that **gender-based marketing and product recommendat
 
 
 22. **Difference between category average price and product price**
+**Business Question:**  
+Create a list to show the difference between the category average price and each product's price.
+
+**Analysis:**  
+For each product, the category average price was calculated and compared against the product's actual unit price. The resulting price difference helps identify premium-priced and budget-priced products within each category.
+
+**Sample Output Table:**
+
+| Product Name | Category | Product Price | Category Average | Price Difference |
+|-------------|----------|-------------:|----------------:|----------------:|
+| Wheel Washing Powder 1kg | Home Care | 95.00 | 55.00 | +40.00 |
+| Bashundhara Tissue | Home Care | 35.00 | 55.00 | -20.00 |
+| Vim Dishwashing Bar | Home Care | 35.00 | 55.00 | -20.00 |
+| Peanut 500g | Snacks | 120.00 | 60.00 | +60.00 |
+| Biscuits (Mixed) | Snacks | 20.00 | 60.00 | -40.00 |
+| Clear Men Shampoo 180ml | Personal Care | 190.00 | 111.60 | +78.40 |
+| Lifebuoy Soap 100g | Personal Care | 38.00 | 111.60 | -73.60 |
+| Lux Soap 100g | Personal Care | 40.00 | 111.60 | -71.60 |
+
+> Positive values indicate products priced above the category average, while negative values indicate products priced below the category average.
+
+**Interpretation:**  
+The analysis reveals significant price variation within categories. Some products act as premium offerings, such as **Clear Men Shampoo 180ml (+78.40)** and **Peanut 500g (+60.00)**, while others are positioned as lower-priced alternatives, such as **Lifebuoy Soap (-73.60)** and **Lux Soap (-71.60)**.
+
+Large positive price differences may indicate premium products with higher margins, whereas large negative differences may represent entry-level or highly competitive products. Understanding these differences helps UrbanCart evaluate pricing strategy, product positioning, and category assortment.
+
+**Business Recommendations:**  
+1. Review premium products to ensure pricing aligns with customer demand and perceived value.
+2. Use lower-priced products as traffic drivers and bundle opportunities.
+3. Monitor products with extreme price differences to identify pricing optimization opportunities.
+4. Compare sales performance against price positioning to evaluate pricing effectiveness.
+5. Use category-average benchmarking as part of regular pricing reviews.
+
+**Visualization:**
+
+<img width="3566" height="2368" alt="qn22_product_price_difference" src="https://github.com/user-attachments/assets/e57e9b6a-5355-40ca-9c8b-362a414acd2b" />
 
 
 
