@@ -230,7 +230,10 @@ This section evaluates UrbanCart’s overall business performance by analyzing t
    | Metric | Value|
    |---------|-------|
    |Total Number of Orders | 1200 |
-2. **Cities generating the highest orders and revenue**
+   
+---
+
+3. **Cities generating the highest orders and revenue**
   The city-level sales analysis shows that Chattogram generated the highest number of orders and the highest total revenue. Barishal and Sylhet also performed strongly, with the same number of orders but slightly different revenue values.
 
     | City        | Total Orders | Total Revenue |
@@ -251,6 +254,8 @@ Chattogram is UrbanCart’s strongest city market because it leads in both order
 
 **Business Recommendation:**  
 UrbanCart should prioritize Chattogram for inventory planning, marketing campaigns, and customer retention programs. Barishal and Sylhet should be targeted with upselling and product recommendation strategies. Rangpur may require promotional campaigns or customer acquisition efforts to increase order volume.
+
+---
 
 4. **Monthly trend of total orders**
    
@@ -279,9 +284,7 @@ The highest order volume occurred in **October 2025** (413 orders), indicating p
 2. Investigate reasons for December drop to adjust marketing campaigns or promotions.  
 3. Monitor monthly trends to plan staffing, inventory, and marketing efforts more efficiently.
 
-
-
-
+---
 
 5. **Completed, pending, and cancelled order rates**
 **Business Question:**  
@@ -316,7 +319,7 @@ The order status analysis was conducted to understand the operational performanc
 4. Analyze cancellation and pending rates by city, payment method, and product category to identify specific operational bottlenecks.
 5. Develop a real-time order status dashboard for proactive monitoring and decision-making.
 
-
+---
 
 6. **Total revenue generated**
 **Business Question:**  
@@ -341,11 +344,50 @@ As a high-level business KPI, total revenue provides a foundation for evaluating
 4. Track monthly revenue trends to support forecasting and business planning.
 5. Combine revenue analysis with profitability metrics to improve strategic decision-making.
 
-
-
+--- 
 
 
 7. **Product categories contributing most to revenue**
+**Business Question:**  
+Which product categories contribute the most to total revenue?
+
+**Analysis:**  
+Revenue was aggregated at the product category level to identify the categories generating the highest sales value.
+
+| Category | Total Revenue (BDT) |
+|----------|-------------------:|
+| Fashion | 291,670 |
+| Grocery | 288,494 |
+| Electronics | 219,600 |
+| Beverages | 122,575 |
+| Personal Care | 94,726 |
+| Health | 89,496 |
+| Digital | 61,297 |
+| Meat | 35,420 |
+| Poultry | 30,720 |
+| Snacks | 28,160 |
+| Home Care | 25,130 |
+| Dairy | 13,320 |
+
+**Visualization:**  
+
+<img width="2664" height="1768" alt="q7_category_revenue" src="https://github.com/user-attachments/assets/457de70b-b476-4df3-ad68-c42c9892d840" />
+
+
+**Interpretation:**  
+The analysis reveals that **Fashion** is the highest revenue-generating category, contributing **BDT 291,670**, closely followed by **Grocery** with **BDT 288,494**. Together, these two categories account for a substantial share of UrbanCart's overall revenue. **Electronics** ranks third and represents another major revenue driver.
+
+On the other hand, categories such as **Dairy**, **Home Care**, and **Snacks** contribute relatively little revenue compared to the leading categories. This may indicate lower customer demand, limited product assortment, lower product prices, or fewer transactions within these categories.
+
+The revenue concentration among a few categories suggests that UrbanCart's sales performance is heavily influenced by customer demand in Fashion, Grocery, and Electronics.
+
+**Business Recommendations:**  
+1. Prioritize inventory availability for Fashion, Grocery, and Electronics to avoid stock-outs.
+2. Increase marketing investment in the top-performing categories to maximize revenue growth.
+3. Use cross-selling and bundling strategies between Grocery and complementary categories.
+4. Evaluate low-performing categories to determine whether pricing, assortment, or promotional strategies need adjustment.
+5. Monitor category-level revenue trends regularly to identify changes in customer preferences.
+
 
 
 8. **Highest revenue-generating products**
