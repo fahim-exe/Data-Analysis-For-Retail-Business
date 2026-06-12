@@ -388,23 +388,141 @@ The revenue concentration among a few categories suggests that UrbanCart's sales
 4. Evaluate low-performing categories to determine whether pricing, assortment, or promotional strategies need adjustment.
 5. Monitor category-level revenue trends regularly to identify changes in customer preferences.
 
-
+---
 
 8. **Highest revenue-generating products**
 
+**Business Question:**  
+Which individual products generate the highest revenue?
+
+**Analysis:**  
+Revenue was calculated at the individual product level to identify the products contributing the most to UrbanCart's sales performance.
+
+| Product Name | Category | Total Revenue (BDT) |
+|-------------|----------|--------------------:|
+| Power Bank 10000mAh | Electronics | 183,350 |
+| Nazirshail Rice 5kg | Grocery | 107,120 |
+| Horlicks 500g | Health | 87,360 |
+| Wallet (Men) | Fashion | 80,100 |
+| Ladies Bag | Fashion | 71,400 |
+
+**Visualization:**  
+<img width="2968" height="1768" alt="q8_top_products_revenue" src="https://github.com/user-attachments/assets/f526e6c5-e99f-4508-a3c8-32a959789499" />
+
+**Interpretation:**  
+The analysis shows that **Power Bank 10000mAh** is UrbanCart's highest revenue-generating product, generating **BDT 183,350**, significantly outperforming all other products. This indicates strong customer demand within the Electronics category.
+
+Among non-electronic products, **Nazirshail Rice 5kg** emerged as the strongest performer, highlighting the importance of Grocery products in overall revenue generation. Fashion products such as **Wallet (Men)** and **Ladies Bag** also contributed substantially, demonstrating strong customer interest in lifestyle and personal-use items.
+
+The presence of products from Electronics, Grocery, Health, and Fashion among the top revenue generators suggests that UrbanCart's revenue is diversified across multiple categories rather than being dependent on a single product segment.
+
+**Business Recommendations:**  
+1. Maintain adequate inventory levels for top-performing products to avoid stock-outs.
+2. Use high-revenue products as featured products in promotional campaigns.
+3. Implement cross-selling strategies for customers purchasing Power Banks and other electronics.
+4. Bundle top-performing grocery and health products to increase basket value.
+5. Monitor product-level revenue regularly to identify emerging best-sellers and declining products.
+
+---
 
 9. **Average order value and average basket size**
+**Business Question:**  
+What is the average order value (AOV) and average basket size?
 
+**Analysis:**  
+From the transactional data, we calculated:
 
+| Metric | Value |
+|--------|-------|
+| Average Order Value (BDT) | 1,824.13 |
+| Average Basket Size (items) | 9.54 |
+
+**Interpretation:**  
+- The **average order value** of BDT 1,824 indicates the typical revenue generated per order.  
+- The **average basket size** of approximately 9.5 items shows that customers usually purchase multiple products per transaction.  
+- Together, these metrics provide insight into customer purchasing behavior and can help forecast revenue, design promotions, and optimize pricing.
+
+**Business Recommendations:**  
+1. Encourage upselling or cross-selling to increase average basket size and order value.  
+2. Identify product combinations frequently bought together to create bundle offers.  
+3. Monitor trends in AOV and basket size over time to detect shifts in customer behavior or impact of promotions.  
+4. Segment customers by AOV and basket size for targeted loyalty programs.
+---
 25. **Daily business report including orders, items, completed orders, cancelled orders, and revenue**
+**Business Question:**  
+Generate a daily report containing Date, Total Orders, Total Items, Completed Orders, Cancelled Orders, and Total Revenue.
+
+**Analysis:**  
+The daily transactional data was summarized as follows:
+
+| Date       | Total Orders | Total Items | Completed Orders | Cancelled Orders | Total Revenue (BDT) |
+|-----------|-------------:|------------:|----------------:|----------------:|------------------:|
+| 2025-09-14 | 15          | 102         | 15              | 0               | 16,077            |
+| 2025-09-15 | 11          | 78          | 10              | 1               | 9,754             |
+| 2025-09-16 | 14          | 91          | 11              | 3               | 17,661            |
+| 2025-09-17 | 21          | 143         | 19              | 2               | 22,783            |
+| 2025-09-18 | 8           | 52          | 7               | 1               | 4,559             |
+
+
+**Visualization:** 
+<img width="3565" height="1768" alt="qn25_daily_report" src="https://github.com/user-attachments/assets/83a84f99-6073-4ea9-aedb-1f962638af64" />
+
+
+**Interpretation:**  
+- Daily order volume and revenue fluctuate across the period, indicating variability in customer demand.  
+- Completed orders dominate daily transactions, but cancelled orders occur intermittently, highlighting the need to monitor cancellations closely.  
+- Total revenue generally aligns with total orders and total items sold, indicating consistency in average order value.  
+- This daily report allows stakeholders to track operational performance, identify high and low activity days, and respond to trends in real-time.
+
+**Business Recommendations:**  
+1. Use the daily report to proactively manage inventory and staffing levels.  
+2. Investigate days with higher cancellations to mitigate operational issues.  
+3. Analyze daily trends to plan promotions or campaigns on slower days.  
+4. Integrate the daily report into dashboards for continuous monitoring of orders and revenue.
+ 
+
+
+---
 
 #### 2. Customer Behavior Analysis
 This section examines customer contribution, Gmail usage, repeat purchasing behavior, customer activity across months, purchasing behavior since account creation, and differences in purchasing patterns by gender and city.
-
+---
 3. **Percentage of customers using Gmail**
+**Business Question:**  
+What percentage of total customers use Gmail?
+
+**Analysis:**  
+Customer email provider data shows:
+
+| Email Provider | Total Customers | Percentage (%) |
+|---------------|----------------|----------------|
+| Gmail         | 76             | 76.0           |
+| Outlook       | 11             | 11.0           |
+| Yahoo         | 13             | 13.0           |
+
+**Visualization:**  
+<img width="2374" height="1408" alt="q3_customer_distribution_by_email_provider" src="https://github.com/user-attachments/assets/54e8b89e-5e3f-4b28-a9f8-a9f5d203e3d4" />
+
+
+**Interpretation:**  
+- **Gmail** is the dominant email provider among UrbanCart customers, with **76%** of users.  
+- Outlook and Yahoo represent smaller segments, with 11% and 13% respectively.  
+- This indicates that marketing campaigns, account-related notifications, and promotions can be primarily optimized for Gmail users.  
+- Understanding email provider distribution helps in segmenting customers for email campaigns, personalization, and deliverability optimization.
+
+**Business Recommendations:**  
+1. Optimize email campaigns for Gmail to reach the majority of customers.  
+2. Test email templates across smaller providers (Outlook/Yahoo) to ensure deliverability and consistency.  
+3. Monitor email engagement by provider to refine communication strategy.
+
+
+---
 12. **Cancellation rate by city and customer**
+---
 14. **Customer behavior over time since account creation**
+---
 15. **Customers who ordered in October but not December**
+---
 16. **Customers who ordered in both October and December**
 
 #### 3. Product and Category Performance
