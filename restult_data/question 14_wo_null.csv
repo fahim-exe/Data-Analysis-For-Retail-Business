@@ -1,0 +1,4 @@
+"account_age_bucket","active_customers","completed_orders","orders_per_active_customer","avg_units_per_order","avg_order_value_proxy","gross_sales_proxy"
+"0-30 days",88,272,3.09,9.53,1791.47,487279.00
+"31-60 days",88,225,2.56,9.58,1816.63,408742.00
+"61-90 days",73,167,2.29,9.56,1828.59,305375.00

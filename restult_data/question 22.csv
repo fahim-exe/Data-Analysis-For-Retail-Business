@@ -1,0 +1,42 @@
+"product_id","product_name","category","unit_price","category_avg","price_diff"
+14,"Wheel Washing Powder 1kg","Home Care",95,55.00,40.00
+19,"Bashundhara Tissue","Home Care",35,55.00,-20.00
+13,"Vim Dishwashing Bar","Home Care",35,55.00,-20.00
+29,"Chanachur 200g","Snacks",40,60.00,-20.00
+30,"Peanut 500g","Snacks",120,60.00,60.00
+28,"Biscuits (Mixed)","Snacks",20,60.00,-40.00
+8,"Farm Fresh Milk 1L","Dairy",90,90.00,0.00
+18,"Clear Men Shampoo 180ml","Personal Care",190,111.60,78.40
+34,"Shoes Polish","Personal Care",130,111.60,18.40
+15,"Lifebuoy Soap 100g","Personal Care",38,111.60,-73.60
+16,"Lux Soap 100g","Personal Care",40,111.60,-71.60
+17,"Sunsilk Shampoo 180ml","Personal Care",160,111.60,48.40
+21,"Robi Internet Pack","Digital",129,125.67,3.33
+22,"GP Internet Pack","Digital",149,125.67,23.33
+20,"Banglalink Internet Pack","Digital",99,125.67,-26.67
+33,"Sprite 1L","Beverages",70,137.00,-67.00
+31,"Water Bottle 1L","Beverages",20,137.00,-117.00
+9,"Bru Coffee 200g","Beverages",330,137.00,193.00
+10,"Taaza Black Tea 400g","Beverages",190,137.00,53.00
+32,"Pepsi 1L","Beverages",75,137.00,-62.00
+7,"Deshi Egg (12 pcs)","Poultry",160,160.00,0.00
+23,"Onion 1kg","Grocery",80,164.30,-84.30
+24,"Potato 1kg","Grocery",35,164.30,-129.30
+25,"Green Chili 100g","Grocery",20,164.30,-144.30
+1,"Miniket Rice 5kg","Grocery",450,164.30,285.70
+27,"Flour (Atta) 2kg","Grocery",110,164.30,-54.30
+5,"ACI Pure Salt 1kg","Grocery",38,164.30,-126.30
+4,"Fresh Sugar 1kg","Grocery",95,164.30,-69.30
+3,"Rupchanda Soyabean Oil 1L","Grocery",175,164.30,10.70
+2,"Nazirshail Rice 5kg","Grocery",520,164.30,355.70
+26,"Lentil (Dal) 1kg","Grocery",120,164.30,-44.30
+6,"Broiler Chicken (whole)","Meat",230,230.00,0.00
+11,"Horlicks 500g","Health",480,246.00,234.00
+12,"Oral Saline (ORS)","Health",12,246.00,-234.00
+39,"Ladies Bag","Fashion",600,380.00,220.00
+37,"Cap","Fashion",120,380.00,-260.00
+36,"T-shirt (Women)","Fashion",380,380.00,0.00
+35,"T-shirt (Men)","Fashion",350,380.00,-30.00
+38,"Wallet (Men)","Fashion",450,380.00,70.00
+40,"Power Bank 10000mAh","Electronics",950,600.00,350.00
+41,"Earphones","Electronics",250,600.00,-350.00

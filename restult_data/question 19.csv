@@ -1,0 +1,51 @@
+"city","pay_method","count_orders","city_method_percentage"
+"Barishal","COD",76,43.93
+"Barishal","bKash",44,25.43
+"Barishal","Nagad",28,16.18
+"Barishal","Debit Card",15,8.67
+"Barishal","Credit Card",10,5.78
+"Chattogram","COD",56,40.00
+"Chattogram","bKash",44,31.43
+"Chattogram","Nagad",34,24.29
+"Chattogram","Credit Card",4,2.86
+"Chattogram","Debit Card",2,1.43
+"Cumilla","COD",49,38.89
+"Cumilla","bKash",32,25.40
+"Cumilla","Nagad",31,24.60
+"Cumilla","Credit Card",11,8.73
+"Cumilla","Debit Card",3,2.38
+"Dhaka","bKash",29,35.80
+"Dhaka","COD",27,33.33
+"Dhaka","Nagad",18,22.22
+"Dhaka","Credit Card",5,6.17
+"Dhaka","Debit Card",2,2.47
+"Gazipur","bKash",38,36.89
+"Gazipur","COD",38,36.89
+"Gazipur","Nagad",20,19.42
+"Gazipur","Debit Card",5,4.85
+"Gazipur","Credit Card",2,1.94
+"Khulna","COD",50,41.32
+"Khulna","bKash",35,28.93
+"Khulna","Nagad",23,19.01
+"Khulna","Debit Card",8,6.61
+"Khulna","Credit Card",5,4.13
+"Narayanganj","COD",25,40.98
+"Narayanganj","bKash",18,29.51
+"Narayanganj","Nagad",13,21.31
+"Narayanganj","Debit Card",3,4.92
+"Narayanganj","Credit Card",2,3.28
+"Rajshahi","COD",51,40.48
+"Rajshahi","bKash",36,28.57
+"Rajshahi","Nagad",15,11.90
+"Rajshahi","Debit Card",13,10.32
+"Rajshahi","Credit Card",11,8.73
+"Rangpur","COD",54,44.63
+"Rangpur","Nagad",29,23.97
+"Rangpur","bKash",26,21.49
+"Rangpur","Credit Card",7,5.79
+"Rangpur","Debit Card",5,4.13
+"Sylhet","COD",62,41.89
+"Sylhet","bKash",47,31.76
+"Sylhet","Nagad",24,16.22
+"Sylhet","Credit Card",8,5.41
+"Sylhet","Debit Card",7,4.73

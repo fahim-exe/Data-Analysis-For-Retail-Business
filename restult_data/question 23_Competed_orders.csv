@@ -1,0 +1,815 @@
+"product_id_1","product_1","product_id_2","product_2","times_ordered_together"
+8,"Farm Fresh Milk 1L",24,"Potato 1kg",14
+18,"Clear Men Shampoo 180ml",31,"Water Bottle 1L",12
+1,"Miniket Rice 5kg",3,"Rupchanda Soyabean Oil 1L",11
+17,"Sunsilk Shampoo 180ml",25,"Green Chili 100g",11
+1,"Miniket Rice 5kg",40,"Power Bank 10000mAh",11
+19,"Bashundhara Tissue",35,"T-shirt (Men)",10
+18,"Clear Men Shampoo 180ml",26,"Lentil (Dal) 1kg",10
+4,"Fresh Sugar 1kg",12,"Oral Saline (ORS)",10
+15,"Lifebuoy Soap 100g",40,"Power Bank 10000mAh",10
+9,"Bru Coffee 200g",40,"Power Bank 10000mAh",10
+7,"Deshi Egg (12 pcs)",36,"T-shirt (Women)",10
+18,"Clear Men Shampoo 180ml",29,"Chanachur 200g",10
+6,"Broiler Chicken (whole)",14,"Wheel Washing Powder 1kg",10
+11,"Horlicks 500g",15,"Lifebuoy Soap 100g",10
+32,"Pepsi 1L",38,"Wallet (Men)",10
+9,"Bru Coffee 200g",12,"Oral Saline (ORS)",10
+6,"Broiler Chicken (whole)",24,"Potato 1kg",10
+3,"Rupchanda Soyabean Oil 1L",32,"Pepsi 1L",10
+9,"Bru Coffee 200g",35,"T-shirt (Men)",10
+10,"Taaza Black Tea 400g",12,"Oral Saline (ORS)",10
+21,"Robi Internet Pack",38,"Wallet (Men)",9
+1,"Miniket Rice 5kg",15,"Lifebuoy Soap 100g",9
+20,"Banglalink Internet Pack",35,"T-shirt (Men)",9
+32,"Pepsi 1L",41,"Earphones",9
+6,"Broiler Chicken (whole)",11,"Horlicks 500g",9
+7,"Deshi Egg (12 pcs)",22,"GP Internet Pack",9
+2,"Nazirshail Rice 5kg",35,"T-shirt (Men)",9
+8,"Farm Fresh Milk 1L",25,"Green Chili 100g",9
+15,"Lifebuoy Soap 100g",37,"Cap",9
+4,"Fresh Sugar 1kg",6,"Broiler Chicken (whole)",9
+3,"Rupchanda Soyabean Oil 1L",12,"Oral Saline (ORS)",9
+9,"Bru Coffee 200g",28,"Biscuits (Mixed)",9
+15,"Lifebuoy Soap 100g",18,"Clear Men Shampoo 180ml",9
+11,"Horlicks 500g",41,"Earphones",9
+18,"Clear Men Shampoo 180ml",28,"Biscuits (Mixed)",9
+2,"Nazirshail Rice 5kg",38,"Wallet (Men)",9
+5,"ACI Pure Salt 1kg",8,"Farm Fresh Milk 1L",9
+9,"Bru Coffee 200g",11,"Horlicks 500g",9
+21,"Robi Internet Pack",33,"Sprite 1L",9
+10,"Taaza Black Tea 400g",28,"Biscuits (Mixed)",9
+16,"Lux Soap 100g",32,"Pepsi 1L",9
+24,"Potato 1kg",30,"Peanut 500g",9
+30,"Peanut 500g",38,"Wallet (Men)",9
+23,"Onion 1kg",34,"Shoes Polish",9
+2,"Nazirshail Rice 5kg",23,"Onion 1kg",9
+26,"Lentil (Dal) 1kg",40,"Power Bank 10000mAh",9
+4,"Fresh Sugar 1kg",33,"Sprite 1L",9
+15,"Lifebuoy Soap 100g",23,"Onion 1kg",9
+36,"T-shirt (Women)",40,"Power Bank 10000mAh",8
+19,"Bashundhara Tissue",23,"Onion 1kg",8
+13,"Vim Dishwashing Bar",15,"Lifebuoy Soap 100g",8
+10,"Taaza Black Tea 400g",40,"Power Bank 10000mAh",8
+2,"Nazirshail Rice 5kg",18,"Clear Men Shampoo 180ml",8
+4,"Fresh Sugar 1kg",35,"T-shirt (Men)",8
+18,"Clear Men Shampoo 180ml",36,"T-shirt (Women)",8
+15,"Lifebuoy Soap 100g",41,"Earphones",8
+15,"Lifebuoy Soap 100g",33,"Sprite 1L",8
+33,"Sprite 1L",35,"T-shirt (Men)",8
+27,"Flour (Atta) 2kg",29,"Chanachur 200g",8
+1,"Miniket Rice 5kg",5,"ACI Pure Salt 1kg",8
+8,"Farm Fresh Milk 1L",9,"Bru Coffee 200g",8
+9,"Bru Coffee 200g",26,"Lentil (Dal) 1kg",8
+31,"Water Bottle 1L",32,"Pepsi 1L",8
+11,"Horlicks 500g",27,"Flour (Atta) 2kg",8
+30,"Peanut 500g",31,"Water Bottle 1L",8
+10,"Taaza Black Tea 400g",18,"Clear Men Shampoo 180ml",8
+31,"Water Bottle 1L",38,"Wallet (Men)",8
+3,"Rupchanda Soyabean Oil 1L",30,"Peanut 500g",8
+19,"Bashundhara Tissue",26,"Lentil (Dal) 1kg",8
+17,"Sunsilk Shampoo 180ml",31,"Water Bottle 1L",8
+15,"Lifebuoy Soap 100g",39,"Ladies Bag",8
+6,"Broiler Chicken (whole)",15,"Lifebuoy Soap 100g",8
+2,"Nazirshail Rice 5kg",10,"Taaza Black Tea 400g",8
+30,"Peanut 500g",36,"T-shirt (Women)",8
+18,"Clear Men Shampoo 180ml",20,"Banglalink Internet Pack",8
+24,"Potato 1kg",40,"Power Bank 10000mAh",8
+35,"T-shirt (Men)",36,"T-shirt (Women)",8
+12,"Oral Saline (ORS)",15,"Lifebuoy Soap 100g",8
+14,"Wheel Washing Powder 1kg",16,"Lux Soap 100g",8
+34,"Shoes Polish",41,"Earphones",8
+16,"Lux Soap 100g",24,"Potato 1kg",8
+14,"Wheel Washing Powder 1kg",40,"Power Bank 10000mAh",8
+32,"Pepsi 1L",33,"Sprite 1L",8
+16,"Lux Soap 100g",28,"Biscuits (Mixed)",8
+2,"Nazirshail Rice 5kg",22,"GP Internet Pack",7
+11,"Horlicks 500g",14,"Wheel Washing Powder 1kg",7
+5,"ACI Pure Salt 1kg",31,"Water Bottle 1L",7
+2,"Nazirshail Rice 5kg",29,"Chanachur 200g",7
+7,"Deshi Egg (12 pcs)",14,"Wheel Washing Powder 1kg",7
+13,"Vim Dishwashing Bar",35,"T-shirt (Men)",7
+20,"Banglalink Internet Pack",27,"Flour (Atta) 2kg",7
+18,"Clear Men Shampoo 180ml",21,"Robi Internet Pack",7
+9,"Bru Coffee 200g",41,"Earphones",7
+33,"Sprite 1L",34,"Shoes Polish",7
+22,"GP Internet Pack",27,"Flour (Atta) 2kg",7
+6,"Broiler Chicken (whole)",28,"Biscuits (Mixed)",7
+15,"Lifebuoy Soap 100g",32,"Pepsi 1L",7
+28,"Biscuits (Mixed)",35,"T-shirt (Men)",7
+7,"Deshi Egg (12 pcs)",30,"Peanut 500g",7
+21,"Robi Internet Pack",32,"Pepsi 1L",7
+7,"Deshi Egg (12 pcs)",18,"Clear Men Shampoo 180ml",7
+9,"Bru Coffee 200g",32,"Pepsi 1L",7
+24,"Potato 1kg",33,"Sprite 1L",7
+5,"ACI Pure Salt 1kg",21,"Robi Internet Pack",7
+38,"Wallet (Men)",40,"Power Bank 10000mAh",7
+15,"Lifebuoy Soap 100g",31,"Water Bottle 1L",7
+3,"Rupchanda Soyabean Oil 1L",40,"Power Bank 10000mAh",7
+1,"Miniket Rice 5kg",13,"Vim Dishwashing Bar",7
+14,"Wheel Washing Powder 1kg",27,"Flour (Atta) 2kg",7
+10,"Taaza Black Tea 400g",31,"Water Bottle 1L",7
+21,"Robi Internet Pack",36,"T-shirt (Women)",7
+29,"Chanachur 200g",40,"Power Bank 10000mAh",7
+8,"Farm Fresh Milk 1L",38,"Wallet (Men)",7
+2,"Nazirshail Rice 5kg",20,"Banglalink Internet Pack",7
+10,"Taaza Black Tea 400g",13,"Vim Dishwashing Bar",7
+24,"Potato 1kg",27,"Flour (Atta) 2kg",7
+7,"Deshi Egg (12 pcs)",33,"Sprite 1L",7
+24,"Potato 1kg",31,"Water Bottle 1L",7
+2,"Nazirshail Rice 5kg",33,"Sprite 1L",7
+11,"Horlicks 500g",21,"Robi Internet Pack",7
+34,"Shoes Polish",36,"T-shirt (Women)",7
+20,"Banglalink Internet Pack",40,"Power Bank 10000mAh",7
+11,"Horlicks 500g",36,"T-shirt (Women)",7
+1,"Miniket Rice 5kg",10,"Taaza Black Tea 400g",7
+4,"Fresh Sugar 1kg",36,"T-shirt (Women)",7
+4,"Fresh Sugar 1kg",7,"Deshi Egg (12 pcs)",7
+6,"Broiler Chicken (whole)",33,"Sprite 1L",7
+12,"Oral Saline (ORS)",19,"Bashundhara Tissue",7
+11,"Horlicks 500g",38,"Wallet (Men)",7
+3,"Rupchanda Soyabean Oil 1L",24,"Potato 1kg",7
+7,"Deshi Egg (12 pcs)",23,"Onion 1kg",7
+14,"Wheel Washing Powder 1kg",32,"Pepsi 1L",7
+12,"Oral Saline (ORS)",28,"Biscuits (Mixed)",7
+24,"Potato 1kg",29,"Chanachur 200g",7
+5,"ACI Pure Salt 1kg",24,"Potato 1kg",7
+6,"Broiler Chicken (whole)",20,"Banglalink Internet Pack",7
+6,"Broiler Chicken (whole)",19,"Bashundhara Tissue",7
+20,"Banglalink Internet Pack",24,"Potato 1kg",7
+1,"Miniket Rice 5kg",24,"Potato 1kg",7
+2,"Nazirshail Rice 5kg",15,"Lifebuoy Soap 100g",7
+26,"Lentil (Dal) 1kg",32,"Pepsi 1L",7
+10,"Taaza Black Tea 400g",35,"T-shirt (Men)",7
+22,"GP Internet Pack",24,"Potato 1kg",7
+12,"Oral Saline (ORS)",31,"Water Bottle 1L",7
+18,"Clear Men Shampoo 180ml",27,"Flour (Atta) 2kg",7
+12,"Oral Saline (ORS)",22,"GP Internet Pack",7
+8,"Farm Fresh Milk 1L",10,"Taaza Black Tea 400g",7
+12,"Oral Saline (ORS)",18,"Clear Men Shampoo 180ml",7
+15,"Lifebuoy Soap 100g",19,"Bashundhara Tissue",7
+21,"Robi Internet Pack",40,"Power Bank 10000mAh",7
+2,"Nazirshail Rice 5kg",9,"Bru Coffee 200g",7
+9,"Bru Coffee 200g",30,"Peanut 500g",7
+15,"Lifebuoy Soap 100g",27,"Flour (Atta) 2kg",7
+15,"Lifebuoy Soap 100g",21,"Robi Internet Pack",7
+24,"Potato 1kg",26,"Lentil (Dal) 1kg",7
+2,"Nazirshail Rice 5kg",27,"Flour (Atta) 2kg",7
+3,"Rupchanda Soyabean Oil 1L",15,"Lifebuoy Soap 100g",7
+27,"Flour (Atta) 2kg",37,"Cap",7
+18,"Clear Men Shampoo 180ml",38,"Wallet (Men)",6
+13,"Vim Dishwashing Bar",34,"Shoes Polish",6
+28,"Biscuits (Mixed)",33,"Sprite 1L",6
+10,"Taaza Black Tea 400g",36,"T-shirt (Women)",6
+13,"Vim Dishwashing Bar",18,"Clear Men Shampoo 180ml",6
+14,"Wheel Washing Powder 1kg",22,"GP Internet Pack",6
+9,"Bru Coffee 200g",24,"Potato 1kg",6
+34,"Shoes Polish",39,"Ladies Bag",6
+18,"Clear Men Shampoo 180ml",40,"Power Bank 10000mAh",6
+4,"Fresh Sugar 1kg",25,"Green Chili 100g",6
+23,"Onion 1kg",40,"Power Bank 10000mAh",6
+11,"Horlicks 500g",17,"Sunsilk Shampoo 180ml",6
+23,"Onion 1kg",36,"T-shirt (Women)",6
+6,"Broiler Chicken (whole)",35,"T-shirt (Men)",6
+8,"Farm Fresh Milk 1L",12,"Oral Saline (ORS)",6
+23,"Onion 1kg",28,"Biscuits (Mixed)",6
+2,"Nazirshail Rice 5kg",3,"Rupchanda Soyabean Oil 1L",6
+10,"Taaza Black Tea 400g",22,"GP Internet Pack",6
+14,"Wheel Washing Powder 1kg",28,"Biscuits (Mixed)",6
+3,"Rupchanda Soyabean Oil 1L",34,"Shoes Polish",6
+1,"Miniket Rice 5kg",11,"Horlicks 500g",6
+21,"Robi Internet Pack",25,"Green Chili 100g",6
+35,"T-shirt (Men)",40,"Power Bank 10000mAh",6
+4,"Fresh Sugar 1kg",27,"Flour (Atta) 2kg",6
+14,"Wheel Washing Powder 1kg",38,"Wallet (Men)",6
+2,"Nazirshail Rice 5kg",5,"ACI Pure Salt 1kg",6
+21,"Robi Internet Pack",30,"Peanut 500g",6
+7,"Deshi Egg (12 pcs)",37,"Cap",6
+19,"Bashundhara Tissue",20,"Banglalink Internet Pack",6
+34,"Shoes Polish",38,"Wallet (Men)",6
+7,"Deshi Egg (12 pcs)",41,"Earphones",6
+18,"Clear Men Shampoo 180ml",23,"Onion 1kg",6
+23,"Onion 1kg",37,"Cap",6
+14,"Wheel Washing Powder 1kg",31,"Water Bottle 1L",6
+14,"Wheel Washing Powder 1kg",24,"Potato 1kg",6
+25,"Green Chili 100g",35,"T-shirt (Men)",6
+3,"Rupchanda Soyabean Oil 1L",9,"Bru Coffee 200g",6
+8,"Farm Fresh Milk 1L",28,"Biscuits (Mixed)",6
+23,"Onion 1kg",38,"Wallet (Men)",6
+3,"Rupchanda Soyabean Oil 1L",29,"Chanachur 200g",6
+25,"Green Chili 100g",31,"Water Bottle 1L",6
+20,"Banglalink Internet Pack",29,"Chanachur 200g",6
+3,"Rupchanda Soyabean Oil 1L",4,"Fresh Sugar 1kg",6
+5,"ACI Pure Salt 1kg",32,"Pepsi 1L",6
+3,"Rupchanda Soyabean Oil 1L",5,"ACI Pure Salt 1kg",6
+17,"Sunsilk Shampoo 180ml",23,"Onion 1kg",6
+23,"Onion 1kg",33,"Sprite 1L",6
+29,"Chanachur 200g",36,"T-shirt (Women)",6
+10,"Taaza Black Tea 400g",32,"Pepsi 1L",6
+7,"Deshi Egg (12 pcs)",17,"Sunsilk Shampoo 180ml",6
+12,"Oral Saline (ORS)",36,"T-shirt (Women)",6
+15,"Lifebuoy Soap 100g",22,"GP Internet Pack",6
+11,"Horlicks 500g",37,"Cap",6
+36,"T-shirt (Women)",39,"Ladies Bag",6
+7,"Deshi Egg (12 pcs)",8,"Farm Fresh Milk 1L",6
+1,"Miniket Rice 5kg",41,"Earphones",6
+5,"ACI Pure Salt 1kg",18,"Clear Men Shampoo 180ml",6
+24,"Potato 1kg",32,"Pepsi 1L",6
+2,"Nazirshail Rice 5kg",4,"Fresh Sugar 1kg",6
+8,"Farm Fresh Milk 1L",35,"T-shirt (Men)",6
+25,"Green Chili 100g",36,"T-shirt (Women)",6
+26,"Lentil (Dal) 1kg",29,"Chanachur 200g",6
+11,"Horlicks 500g",20,"Banglalink Internet Pack",6
+2,"Nazirshail Rice 5kg",8,"Farm Fresh Milk 1L",6
+23,"Onion 1kg",31,"Water Bottle 1L",6
+1,"Miniket Rice 5kg",2,"Nazirshail Rice 5kg",6
+13,"Vim Dishwashing Bar",32,"Pepsi 1L",6
+26,"Lentil (Dal) 1kg",41,"Earphones",6
+2,"Nazirshail Rice 5kg",39,"Ladies Bag",6
+2,"Nazirshail Rice 5kg",12,"Oral Saline (ORS)",6
+13,"Vim Dishwashing Bar",28,"Biscuits (Mixed)",6
+6,"Broiler Chicken (whole)",16,"Lux Soap 100g",6
+9,"Bru Coffee 200g",17,"Sunsilk Shampoo 180ml",6
+15,"Lifebuoy Soap 100g",17,"Sunsilk Shampoo 180ml",6
+13,"Vim Dishwashing Bar",20,"Banglalink Internet Pack",6
+20,"Banglalink Internet Pack",26,"Lentil (Dal) 1kg",6
+33,"Sprite 1L",39,"Ladies Bag",6
+15,"Lifebuoy Soap 100g",35,"T-shirt (Men)",6
+3,"Rupchanda Soyabean Oil 1L",6,"Broiler Chicken (whole)",6
+21,"Robi Internet Pack",26,"Lentil (Dal) 1kg",6
+2,"Nazirshail Rice 5kg",11,"Horlicks 500g",6
+33,"Sprite 1L",36,"T-shirt (Women)",6
+13,"Vim Dishwashing Bar",30,"Peanut 500g",6
+17,"Sunsilk Shampoo 180ml",29,"Chanachur 200g",6
+12,"Oral Saline (ORS)",30,"Peanut 500g",6
+26,"Lentil (Dal) 1kg",39,"Ladies Bag",6
+17,"Sunsilk Shampoo 180ml",27,"Flour (Atta) 2kg",6
+6,"Broiler Chicken (whole)",27,"Flour (Atta) 2kg",6
+4,"Fresh Sugar 1kg",15,"Lifebuoy Soap 100g",6
+12,"Oral Saline (ORS)",40,"Power Bank 10000mAh",6
+9,"Bru Coffee 200g",39,"Ladies Bag",6
+27,"Flour (Atta) 2kg",38,"Wallet (Men)",6
+1,"Miniket Rice 5kg",30,"Peanut 500g",6
+13,"Vim Dishwashing Bar",16,"Lux Soap 100g",6
+2,"Nazirshail Rice 5kg",34,"Shoes Polish",6
+27,"Flour (Atta) 2kg",32,"Pepsi 1L",6
+9,"Bru Coffee 200g",36,"T-shirt (Women)",6
+32,"Pepsi 1L",37,"Cap",6
+7,"Deshi Egg (12 pcs)",11,"Horlicks 500g",6
+3,"Rupchanda Soyabean Oil 1L",11,"Horlicks 500g",6
+20,"Banglalink Internet Pack",36,"T-shirt (Women)",6
+4,"Fresh Sugar 1kg",10,"Taaza Black Tea 400g",6
+3,"Rupchanda Soyabean Oil 1L",38,"Wallet (Men)",6
+26,"Lentil (Dal) 1kg",28,"Biscuits (Mixed)",6
+26,"Lentil (Dal) 1kg",31,"Water Bottle 1L",6
+9,"Bru Coffee 200g",27,"Flour (Atta) 2kg",6
+25,"Green Chili 100g",38,"Wallet (Men)",6
+23,"Onion 1kg",26,"Lentil (Dal) 1kg",6
+4,"Fresh Sugar 1kg",21,"Robi Internet Pack",6
+24,"Potato 1kg",25,"Green Chili 100g",6
+6,"Broiler Chicken (whole)",40,"Power Bank 10000mAh",6
+22,"GP Internet Pack",38,"Wallet (Men)",6
+23,"Onion 1kg",27,"Flour (Atta) 2kg",6
+32,"Pepsi 1L",39,"Ladies Bag",6
+10,"Taaza Black Tea 400g",27,"Flour (Atta) 2kg",6
+28,"Biscuits (Mixed)",40,"Power Bank 10000mAh",6
+9,"Bru Coffee 200g",23,"Onion 1kg",6
+9,"Bru Coffee 200g",14,"Wheel Washing Powder 1kg",6
+1,"Miniket Rice 5kg",33,"Sprite 1L",6
+12,"Oral Saline (ORS)",13,"Vim Dishwashing Bar",6
+9,"Bru Coffee 200g",34,"Shoes Polish",6
+16,"Lux Soap 100g",27,"Flour (Atta) 2kg",6
+4,"Fresh Sugar 1kg",40,"Power Bank 10000mAh",6
+7,"Deshi Egg (12 pcs)",15,"Lifebuoy Soap 100g",6
+31,"Water Bottle 1L",41,"Earphones",6
+1,"Miniket Rice 5kg",12,"Oral Saline (ORS)",6
+26,"Lentil (Dal) 1kg",36,"T-shirt (Women)",5
+6,"Broiler Chicken (whole)",9,"Bru Coffee 200g",5
+28,"Biscuits (Mixed)",41,"Earphones",5
+30,"Peanut 500g",32,"Pepsi 1L",5
+8,"Farm Fresh Milk 1L",32,"Pepsi 1L",5
+1,"Miniket Rice 5kg",19,"Bashundhara Tissue",5
+27,"Flour (Atta) 2kg",30,"Peanut 500g",5
+21,"Robi Internet Pack",29,"Chanachur 200g",5
+14,"Wheel Washing Powder 1kg",37,"Cap",5
+4,"Fresh Sugar 1kg",32,"Pepsi 1L",5
+16,"Lux Soap 100g",39,"Ladies Bag",5
+16,"Lux Soap 100g",22,"GP Internet Pack",5
+3,"Rupchanda Soyabean Oil 1L",10,"Taaza Black Tea 400g",5
+17,"Sunsilk Shampoo 180ml",18,"Clear Men Shampoo 180ml",5
+4,"Fresh Sugar 1kg",8,"Farm Fresh Milk 1L",5
+22,"GP Internet Pack",36,"T-shirt (Women)",5
+19,"Bashundhara Tissue",31,"Water Bottle 1L",5
+12,"Oral Saline (ORS)",20,"Banglalink Internet Pack",5
+3,"Rupchanda Soyabean Oil 1L",37,"Cap",5
+5,"ACI Pure Salt 1kg",9,"Bru Coffee 200g",5
+5,"ACI Pure Salt 1kg",37,"Cap",5
+7,"Deshi Egg (12 pcs)",24,"Potato 1kg",5
+2,"Nazirshail Rice 5kg",36,"T-shirt (Women)",5
+1,"Miniket Rice 5kg",4,"Fresh Sugar 1kg",5
+3,"Rupchanda Soyabean Oil 1L",21,"Robi Internet Pack",5
+14,"Wheel Washing Powder 1kg",33,"Sprite 1L",5
+28,"Biscuits (Mixed)",31,"Water Bottle 1L",5
+20,"Banglalink Internet Pack",30,"Peanut 500g",5
+21,"Robi Internet Pack",41,"Earphones",5
+22,"GP Internet Pack",41,"Earphones",5
+1,"Miniket Rice 5kg",22,"GP Internet Pack",5
+9,"Bru Coffee 200g",38,"Wallet (Men)",5
+19,"Bashundhara Tissue",21,"Robi Internet Pack",5
+9,"Bru Coffee 200g",15,"Lifebuoy Soap 100g",5
+3,"Rupchanda Soyabean Oil 1L",33,"Sprite 1L",5
+32,"Pepsi 1L",36,"T-shirt (Women)",5
+27,"Flour (Atta) 2kg",31,"Water Bottle 1L",5
+21,"Robi Internet Pack",23,"Onion 1kg",5
+1,"Miniket Rice 5kg",34,"Shoes Polish",5
+12,"Oral Saline (ORS)",25,"Green Chili 100g",5
+8,"Farm Fresh Milk 1L",19,"Bashundhara Tissue",5
+38,"Wallet (Men)",41,"Earphones",5
+2,"Nazirshail Rice 5kg",14,"Wheel Washing Powder 1kg",5
+6,"Broiler Chicken (whole)",13,"Vim Dishwashing Bar",5
+11,"Horlicks 500g",13,"Vim Dishwashing Bar",5
+5,"ACI Pure Salt 1kg",10,"Taaza Black Tea 400g",5
+28,"Biscuits (Mixed)",32,"Pepsi 1L",5
+10,"Taaza Black Tea 400g",38,"Wallet (Men)",5
+26,"Lentil (Dal) 1kg",35,"T-shirt (Men)",5
+11,"Horlicks 500g",23,"Onion 1kg",5
+13,"Vim Dishwashing Bar",14,"Wheel Washing Powder 1kg",5
+11,"Horlicks 500g",22,"GP Internet Pack",5
+18,"Clear Men Shampoo 180ml",34,"Shoes Polish",5
+2,"Nazirshail Rice 5kg",17,"Sunsilk Shampoo 180ml",5
+7,"Deshi Egg (12 pcs)",26,"Lentil (Dal) 1kg",5
+23,"Onion 1kg",35,"T-shirt (Men)",5
+11,"Horlicks 500g",12,"Oral Saline (ORS)",5
+13,"Vim Dishwashing Bar",29,"Chanachur 200g",5
+21,"Robi Internet Pack",34,"Shoes Polish",5
+13,"Vim Dishwashing Bar",39,"Ladies Bag",5
+8,"Farm Fresh Milk 1L",15,"Lifebuoy Soap 100g",5
+18,"Clear Men Shampoo 180ml",39,"Ladies Bag",5
+7,"Deshi Egg (12 pcs)",32,"Pepsi 1L",5
+22,"GP Internet Pack",32,"Pepsi 1L",5
+19,"Bashundhara Tissue",33,"Sprite 1L",5
+14,"Wheel Washing Powder 1kg",26,"Lentil (Dal) 1kg",5
+5,"ACI Pure Salt 1kg",7,"Deshi Egg (12 pcs)",5
+5,"ACI Pure Salt 1kg",17,"Sunsilk Shampoo 180ml",5
+13,"Vim Dishwashing Bar",40,"Power Bank 10000mAh",5
+3,"Rupchanda Soyabean Oil 1L",13,"Vim Dishwashing Bar",5
+1,"Miniket Rice 5kg",29,"Chanachur 200g",5
+8,"Farm Fresh Milk 1L",37,"Cap",5
+2,"Nazirshail Rice 5kg",31,"Water Bottle 1L",5
+14,"Wheel Washing Powder 1kg",15,"Lifebuoy Soap 100g",5
+36,"T-shirt (Women)",38,"Wallet (Men)",5
+11,"Horlicks 500g",18,"Clear Men Shampoo 180ml",5
+5,"ACI Pure Salt 1kg",11,"Horlicks 500g",5
+1,"Miniket Rice 5kg",6,"Broiler Chicken (whole)",5
+7,"Deshi Egg (12 pcs)",39,"Ladies Bag",5
+30,"Peanut 500g",41,"Earphones",5
+18,"Clear Men Shampoo 180ml",33,"Sprite 1L",5
+4,"Fresh Sugar 1kg",26,"Lentil (Dal) 1kg",5
+11,"Horlicks 500g",32,"Pepsi 1L",5
+13,"Vim Dishwashing Bar",24,"Potato 1kg",5
+5,"ACI Pure Salt 1kg",15,"Lifebuoy Soap 100g",5
+4,"Fresh Sugar 1kg",17,"Sunsilk Shampoo 180ml",5
+10,"Taaza Black Tea 400g",41,"Earphones",5
+4,"Fresh Sugar 1kg",16,"Lux Soap 100g",5
+10,"Taaza Black Tea 400g",23,"Onion 1kg",5
+24,"Potato 1kg",35,"T-shirt (Men)",5
+3,"Rupchanda Soyabean Oil 1L",16,"Lux Soap 100g",5
+12,"Oral Saline (ORS)",26,"Lentil (Dal) 1kg",5
+19,"Bashundhara Tissue",41,"Earphones",5
+2,"Nazirshail Rice 5kg",25,"Green Chili 100g",5
+19,"Bashundhara Tissue",25,"Green Chili 100g",5
+21,"Robi Internet Pack",35,"T-shirt (Men)",5
+8,"Farm Fresh Milk 1L",17,"Sunsilk Shampoo 180ml",5
+23,"Onion 1kg",29,"Chanachur 200g",5
+2,"Nazirshail Rice 5kg",13,"Vim Dishwashing Bar",5
+2,"Nazirshail Rice 5kg",32,"Pepsi 1L",5
+6,"Broiler Chicken (whole)",26,"Lentil (Dal) 1kg",5
+20,"Banglalink Internet Pack",34,"Shoes Polish",5
+6,"Broiler Chicken (whole)",12,"Oral Saline (ORS)",5
+26,"Lentil (Dal) 1kg",27,"Flour (Atta) 2kg",5
+20,"Banglalink Internet Pack",37,"Cap",5
+33,"Sprite 1L",38,"Wallet (Men)",5
+5,"ACI Pure Salt 1kg",36,"T-shirt (Women)",5
+7,"Deshi Egg (12 pcs)",31,"Water Bottle 1L",5
+8,"Farm Fresh Milk 1L",39,"Ladies Bag",5
+12,"Oral Saline (ORS)",37,"Cap",5
+15,"Lifebuoy Soap 100g",16,"Lux Soap 100g",5
+11,"Horlicks 500g",25,"Green Chili 100g",5
+1,"Miniket Rice 5kg",7,"Deshi Egg (12 pcs)",5
+2,"Nazirshail Rice 5kg",40,"Power Bank 10000mAh",5
+3,"Rupchanda Soyabean Oil 1L",41,"Earphones",5
+1,"Miniket Rice 5kg",18,"Clear Men Shampoo 180ml",5
+30,"Peanut 500g",34,"Shoes Polish",5
+2,"Nazirshail Rice 5kg",24,"Potato 1kg",5
+30,"Peanut 500g",40,"Power Bank 10000mAh",5
+5,"ACI Pure Salt 1kg",28,"Biscuits (Mixed)",5
+20,"Banglalink Internet Pack",31,"Water Bottle 1L",5
+8,"Farm Fresh Milk 1L",29,"Chanachur 200g",5
+40,"Power Bank 10000mAh",41,"Earphones",5
+8,"Farm Fresh Milk 1L",23,"Onion 1kg",5
+13,"Vim Dishwashing Bar",27,"Flour (Atta) 2kg",5
+20,"Banglalink Internet Pack",33,"Sprite 1L",5
+11,"Horlicks 500g",33,"Sprite 1L",5
+21,"Robi Internet Pack",37,"Cap",5
+6,"Broiler Chicken (whole)",7,"Deshi Egg (12 pcs)",5
+25,"Green Chili 100g",32,"Pepsi 1L",5
+34,"Shoes Polish",40,"Power Bank 10000mAh",5
+11,"Horlicks 500g",24,"Potato 1kg",5
+15,"Lifebuoy Soap 100g",30,"Peanut 500g",5
+8,"Farm Fresh Milk 1L",40,"Power Bank 10000mAh",5
+3,"Rupchanda Soyabean Oil 1L",8,"Farm Fresh Milk 1L",5
+22,"GP Internet Pack",33,"Sprite 1L",4
+27,"Flour (Atta) 2kg",28,"Biscuits (Mixed)",4
+30,"Peanut 500g",39,"Ladies Bag",4
+19,"Bashundhara Tissue",28,"Biscuits (Mixed)",4
+29,"Chanachur 200g",37,"Cap",4
+6,"Broiler Chicken (whole)",30,"Peanut 500g",4
+5,"ACI Pure Salt 1kg",12,"Oral Saline (ORS)",4
+12,"Oral Saline (ORS)",23,"Onion 1kg",4
+4,"Fresh Sugar 1kg",24,"Potato 1kg",4
+1,"Miniket Rice 5kg",27,"Flour (Atta) 2kg",4
+14,"Wheel Washing Powder 1kg",18,"Clear Men Shampoo 180ml",4
+4,"Fresh Sugar 1kg",29,"Chanachur 200g",4
+1,"Miniket Rice 5kg",32,"Pepsi 1L",4
+17,"Sunsilk Shampoo 180ml",22,"GP Internet Pack",4
+7,"Deshi Egg (12 pcs)",27,"Flour (Atta) 2kg",4
+10,"Taaza Black Tea 400g",21,"Robi Internet Pack",4
+27,"Flour (Atta) 2kg",35,"T-shirt (Men)",4
+18,"Clear Men Shampoo 180ml",35,"T-shirt (Men)",4
+36,"T-shirt (Women)",41,"Earphones",4
+10,"Taaza Black Tea 400g",29,"Chanachur 200g",4
+29,"Chanachur 200g",35,"T-shirt (Men)",4
+20,"Banglalink Internet Pack",22,"GP Internet Pack",4
+20,"Banglalink Internet Pack",28,"Biscuits (Mixed)",4
+12,"Oral Saline (ORS)",35,"T-shirt (Men)",4
+33,"Sprite 1L",41,"Earphones",4
+8,"Farm Fresh Milk 1L",21,"Robi Internet Pack",4
+2,"Nazirshail Rice 5kg",26,"Lentil (Dal) 1kg",4
+12,"Oral Saline (ORS)",14,"Wheel Washing Powder 1kg",4
+14,"Wheel Washing Powder 1kg",19,"Bashundhara Tissue",4
+18,"Clear Men Shampoo 180ml",24,"Potato 1kg",4
+33,"Sprite 1L",40,"Power Bank 10000mAh",4
+13,"Vim Dishwashing Bar",38,"Wallet (Men)",4
+5,"ACI Pure Salt 1kg",34,"Shoes Polish",4
+19,"Bashundhara Tissue",32,"Pepsi 1L",4
+1,"Miniket Rice 5kg",8,"Farm Fresh Milk 1L",4
+17,"Sunsilk Shampoo 180ml",30,"Peanut 500g",4
+3,"Rupchanda Soyabean Oil 1L",18,"Clear Men Shampoo 180ml",4
+7,"Deshi Egg (12 pcs)",16,"Lux Soap 100g",4
+19,"Bashundhara Tissue",27,"Flour (Atta) 2kg",4
+21,"Robi Internet Pack",28,"Biscuits (Mixed)",4
+37,"Cap",38,"Wallet (Men)",4
+23,"Onion 1kg",25,"Green Chili 100g",4
+1,"Miniket Rice 5kg",14,"Wheel Washing Powder 1kg",4
+17,"Sunsilk Shampoo 180ml",33,"Sprite 1L",4
+4,"Fresh Sugar 1kg",22,"GP Internet Pack",4
+29,"Chanachur 200g",33,"Sprite 1L",4
+15,"Lifebuoy Soap 100g",25,"Green Chili 100g",4
+13,"Vim Dishwashing Bar",19,"Bashundhara Tissue",4
+29,"Chanachur 200g",30,"Peanut 500g",4
+19,"Bashundhara Tissue",34,"Shoes Polish",4
+16,"Lux Soap 100g",17,"Sunsilk Shampoo 180ml",4
+17,"Sunsilk Shampoo 180ml",20,"Banglalink Internet Pack",4
+31,"Water Bottle 1L",35,"T-shirt (Men)",4
+27,"Flour (Atta) 2kg",39,"Ladies Bag",4
+3,"Rupchanda Soyabean Oil 1L",26,"Lentil (Dal) 1kg",4
+7,"Deshi Egg (12 pcs)",21,"Robi Internet Pack",4
+15,"Lifebuoy Soap 100g",26,"Lentil (Dal) 1kg",4
+17,"Sunsilk Shampoo 180ml",21,"Robi Internet Pack",4
+12,"Oral Saline (ORS)",32,"Pepsi 1L",4
+4,"Fresh Sugar 1kg",18,"Clear Men Shampoo 180ml",4
+11,"Horlicks 500g",29,"Chanachur 200g",4
+20,"Banglalink Internet Pack",38,"Wallet (Men)",4
+16,"Lux Soap 100g",41,"Earphones",4
+12,"Oral Saline (ORS)",17,"Sunsilk Shampoo 180ml",4
+4,"Fresh Sugar 1kg",19,"Bashundhara Tissue",4
+4,"Fresh Sugar 1kg",11,"Horlicks 500g",4
+10,"Taaza Black Tea 400g",15,"Lifebuoy Soap 100g",4
+20,"Banglalink Internet Pack",25,"Green Chili 100g",4
+24,"Potato 1kg",41,"Earphones",4
+7,"Deshi Egg (12 pcs)",9,"Bru Coffee 200g",4
+16,"Lux Soap 100g",26,"Lentil (Dal) 1kg",4
+25,"Green Chili 100g",39,"Ladies Bag",4
+24,"Potato 1kg",34,"Shoes Polish",4
+21,"Robi Internet Pack",27,"Flour (Atta) 2kg",4
+7,"Deshi Egg (12 pcs)",29,"Chanachur 200g",4
+14,"Wheel Washing Powder 1kg",21,"Robi Internet Pack",4
+8,"Farm Fresh Milk 1L",14,"Wheel Washing Powder 1kg",4
+29,"Chanachur 200g",38,"Wallet (Men)",4
+5,"ACI Pure Salt 1kg",30,"Peanut 500g",4
+1,"Miniket Rice 5kg",28,"Biscuits (Mixed)",4
+5,"ACI Pure Salt 1kg",13,"Vim Dishwashing Bar",4
+10,"Taaza Black Tea 400g",26,"Lentil (Dal) 1kg",4
+13,"Vim Dishwashing Bar",31,"Water Bottle 1L",4
+8,"Farm Fresh Milk 1L",18,"Clear Men Shampoo 180ml",4
+3,"Rupchanda Soyabean Oil 1L",22,"GP Internet Pack",4
+10,"Taaza Black Tea 400g",16,"Lux Soap 100g",4
+31,"Water Bottle 1L",40,"Power Bank 10000mAh",4
+6,"Broiler Chicken (whole)",23,"Onion 1kg",4
+25,"Green Chili 100g",30,"Peanut 500g",4
+39,"Ladies Bag",41,"Earphones",4
+6,"Broiler Chicken (whole)",22,"GP Internet Pack",4
+22,"GP Internet Pack",31,"Water Bottle 1L",4
+6,"Broiler Chicken (whole)",21,"Robi Internet Pack",4
+16,"Lux Soap 100g",30,"Peanut 500g",4
+17,"Sunsilk Shampoo 180ml",34,"Shoes Polish",4
+11,"Horlicks 500g",39,"Ladies Bag",4
+4,"Fresh Sugar 1kg",41,"Earphones",4
+10,"Taaza Black Tea 400g",30,"Peanut 500g",4
+1,"Miniket Rice 5kg",17,"Sunsilk Shampoo 180ml",4
+4,"Fresh Sugar 1kg",14,"Wheel Washing Powder 1kg",4
+25,"Green Chili 100g",41,"Earphones",4
+14,"Wheel Washing Powder 1kg",35,"T-shirt (Men)",4
+17,"Sunsilk Shampoo 180ml",37,"Cap",4
+7,"Deshi Egg (12 pcs)",12,"Oral Saline (ORS)",4
+16,"Lux Soap 100g",23,"Onion 1kg",4
+6,"Broiler Chicken (whole)",32,"Pepsi 1L",4
+12,"Oral Saline (ORS)",33,"Sprite 1L",4
+18,"Clear Men Shampoo 180ml",41,"Earphones",4
+23,"Onion 1kg",39,"Ladies Bag",4
+22,"GP Internet Pack",39,"Ladies Bag",4
+17,"Sunsilk Shampoo 180ml",40,"Power Bank 10000mAh",4
+26,"Lentil (Dal) 1kg",33,"Sprite 1L",4
+11,"Horlicks 500g",40,"Power Bank 10000mAh",4
+6,"Broiler Chicken (whole)",31,"Water Bottle 1L",4
+5,"ACI Pure Salt 1kg",41,"Earphones",4
+21,"Robi Internet Pack",22,"GP Internet Pack",4
+5,"ACI Pure Salt 1kg",22,"GP Internet Pack",4
+9,"Bru Coffee 200g",19,"Bashundhara Tissue",4
+27,"Flour (Atta) 2kg",33,"Sprite 1L",4
+15,"Lifebuoy Soap 100g",36,"T-shirt (Women)",4
+15,"Lifebuoy Soap 100g",29,"Chanachur 200g",4
+17,"Sunsilk Shampoo 180ml",38,"Wallet (Men)",4
+6,"Broiler Chicken (whole)",18,"Clear Men Shampoo 180ml",4
+3,"Rupchanda Soyabean Oil 1L",7,"Deshi Egg (12 pcs)",4
+14,"Wheel Washing Powder 1kg",39,"Ladies Bag",4
+3,"Rupchanda Soyabean Oil 1L",28,"Biscuits (Mixed)",4
+20,"Banglalink Internet Pack",23,"Onion 1kg",4
+3,"Rupchanda Soyabean Oil 1L",25,"Green Chili 100g",4
+22,"GP Internet Pack",37,"Cap",4
+12,"Oral Saline (ORS)",34,"Shoes Polish",4
+25,"Green Chili 100g",33,"Sprite 1L",4
+9,"Bru Coffee 200g",13,"Vim Dishwashing Bar",4
+6,"Broiler Chicken (whole)",10,"Taaza Black Tea 400g",4
+4,"Fresh Sugar 1kg",34,"Shoes Polish",4
+7,"Deshi Egg (12 pcs)",25,"Green Chili 100g",4
+18,"Clear Men Shampoo 180ml",30,"Peanut 500g",4
+4,"Fresh Sugar 1kg",9,"Bru Coffee 200g",4
+2,"Nazirshail Rice 5kg",7,"Deshi Egg (12 pcs)",4
+9,"Bru Coffee 200g",33,"Sprite 1L",4
+29,"Chanachur 200g",31,"Water Bottle 1L",4
+6,"Broiler Chicken (whole)",37,"Cap",4
+14,"Wheel Washing Powder 1kg",36,"T-shirt (Women)",4
+26,"Lentil (Dal) 1kg",38,"Wallet (Men)",4
+9,"Bru Coffee 200g",21,"Robi Internet Pack",4
+17,"Sunsilk Shampoo 180ml",36,"T-shirt (Women)",4
+7,"Deshi Egg (12 pcs)",35,"T-shirt (Men)",4
+8,"Farm Fresh Milk 1L",34,"Shoes Polish",4
+22,"GP Internet Pack",34,"Shoes Polish",4
+7,"Deshi Egg (12 pcs)",38,"Wallet (Men)",4
+3,"Rupchanda Soyabean Oil 1L",20,"Banglalink Internet Pack",4
+16,"Lux Soap 100g",21,"Robi Internet Pack",4
+24,"Potato 1kg",38,"Wallet (Men)",4
+4,"Fresh Sugar 1kg",31,"Water Bottle 1L",4
+6,"Broiler Chicken (whole)",36,"T-shirt (Women)",4
+35,"T-shirt (Men)",41,"Earphones",4
+16,"Lux Soap 100g",19,"Bashundhara Tissue",4
+22,"GP Internet Pack",40,"Power Bank 10000mAh",4
+11,"Horlicks 500g",35,"T-shirt (Men)",4
+15,"Lifebuoy Soap 100g",38,"Wallet (Men)",4
+19,"Bashundhara Tissue",36,"T-shirt (Women)",4
+30,"Peanut 500g",35,"T-shirt (Men)",3
+31,"Water Bottle 1L",33,"Sprite 1L",3
+34,"Shoes Polish",35,"T-shirt (Men)",3
+2,"Nazirshail Rice 5kg",21,"Robi Internet Pack",3
+16,"Lux Soap 100g",35,"T-shirt (Men)",3
+5,"ACI Pure Salt 1kg",16,"Lux Soap 100g",3
+12,"Oral Saline (ORS)",24,"Potato 1kg",3
+31,"Water Bottle 1L",34,"Shoes Polish",3
+4,"Fresh Sugar 1kg",30,"Peanut 500g",3
+4,"Fresh Sugar 1kg",5,"ACI Pure Salt 1kg",3
+26,"Lentil (Dal) 1kg",34,"Shoes Polish",3
+3,"Rupchanda Soyabean Oil 1L",17,"Sunsilk Shampoo 180ml",3
+10,"Taaza Black Tea 400g",17,"Sunsilk Shampoo 180ml",3
+8,"Farm Fresh Milk 1L",22,"GP Internet Pack",3
+19,"Bashundhara Tissue",24,"Potato 1kg",3
+19,"Bashundhara Tissue",30,"Peanut 500g",3
+27,"Flour (Atta) 2kg",36,"T-shirt (Women)",3
+2,"Nazirshail Rice 5kg",41,"Earphones",3
+7,"Deshi Egg (12 pcs)",20,"Banglalink Internet Pack",3
+29,"Chanachur 200g",34,"Shoes Polish",3
+27,"Flour (Atta) 2kg",40,"Power Bank 10000mAh",3
+16,"Lux Soap 100g",33,"Sprite 1L",3
+9,"Bru Coffee 200g",22,"GP Internet Pack",3
+5,"ACI Pure Salt 1kg",35,"T-shirt (Men)",3
+29,"Chanachur 200g",41,"Earphones",3
+11,"Horlicks 500g",30,"Peanut 500g",3
+23,"Onion 1kg",32,"Pepsi 1L",3
+16,"Lux Soap 100g",18,"Clear Men Shampoo 180ml",3
+6,"Broiler Chicken (whole)",38,"Wallet (Men)",3
+17,"Sunsilk Shampoo 180ml",19,"Bashundhara Tissue",3
+18,"Clear Men Shampoo 180ml",25,"Green Chili 100g",3
+22,"GP Internet Pack",26,"Lentil (Dal) 1kg",3
+17,"Sunsilk Shampoo 180ml",26,"Lentil (Dal) 1kg",3
+10,"Taaza Black Tea 400g",14,"Wheel Washing Powder 1kg",3
+15,"Lifebuoy Soap 100g",28,"Biscuits (Mixed)",3
+5,"ACI Pure Salt 1kg",33,"Sprite 1L",3
+31,"Water Bottle 1L",36,"T-shirt (Women)",3
+6,"Broiler Chicken (whole)",29,"Chanachur 200g",3
+17,"Sunsilk Shampoo 180ml",39,"Ladies Bag",3
+23,"Onion 1kg",24,"Potato 1kg",3
+8,"Farm Fresh Milk 1L",16,"Lux Soap 100g",3
+21,"Robi Internet Pack",31,"Water Bottle 1L",3
+13,"Vim Dishwashing Bar",23,"Onion 1kg",3
+34,"Shoes Polish",37,"Cap",3
+22,"GP Internet Pack",25,"Green Chili 100g",3
+18,"Clear Men Shampoo 180ml",37,"Cap",3
+18,"Clear Men Shampoo 180ml",19,"Bashundhara Tissue",3
+2,"Nazirshail Rice 5kg",30,"Peanut 500g",3
+25,"Green Chili 100g",26,"Lentil (Dal) 1kg",3
+13,"Vim Dishwashing Bar",17,"Sunsilk Shampoo 180ml",3
+4,"Fresh Sugar 1kg",38,"Wallet (Men)",3
+6,"Broiler Chicken (whole)",25,"Green Chili 100g",3
+7,"Deshi Egg (12 pcs)",10,"Taaza Black Tea 400g",3
+19,"Bashundhara Tissue",39,"Ladies Bag",3
+17,"Sunsilk Shampoo 180ml",41,"Earphones",3
+27,"Flour (Atta) 2kg",34,"Shoes Polish",3
+1,"Miniket Rice 5kg",20,"Banglalink Internet Pack",3
+36,"T-shirt (Women)",37,"Cap",3
+25,"Green Chili 100g",37,"Cap",3
+15,"Lifebuoy Soap 100g",24,"Potato 1kg",3
+17,"Sunsilk Shampoo 180ml",35,"T-shirt (Men)",3
+8,"Farm Fresh Milk 1L",36,"T-shirt (Women)",3
+6,"Broiler Chicken (whole)",39,"Ladies Bag",3
+28,"Biscuits (Mixed)",34,"Shoes Polish",3
+16,"Lux Soap 100g",20,"Banglalink Internet Pack",3
+10,"Taaza Black Tea 400g",11,"Horlicks 500g",3
+16,"Lux Soap 100g",34,"Shoes Polish",3
+3,"Rupchanda Soyabean Oil 1L",19,"Bashundhara Tissue",3
+12,"Oral Saline (ORS)",39,"Ladies Bag",3
+28,"Biscuits (Mixed)",29,"Chanachur 200g",3
+32,"Pepsi 1L",40,"Power Bank 10000mAh",3
+13,"Vim Dishwashing Bar",37,"Cap",3
+35,"T-shirt (Men)",39,"Ladies Bag",3
+18,"Clear Men Shampoo 180ml",32,"Pepsi 1L",3
+29,"Chanachur 200g",32,"Pepsi 1L",3
+7,"Deshi Egg (12 pcs)",13,"Vim Dishwashing Bar",3
+8,"Farm Fresh Milk 1L",31,"Water Bottle 1L",3
+14,"Wheel Washing Powder 1kg",23,"Onion 1kg",3
+11,"Horlicks 500g",19,"Bashundhara Tissue",3
+32,"Pepsi 1L",34,"Shoes Polish",3
+16,"Lux Soap 100g",38,"Wallet (Men)",3
+16,"Lux Soap 100g",40,"Power Bank 10000mAh",3
+25,"Green Chili 100g",40,"Power Bank 10000mAh",3
+24,"Potato 1kg",36,"T-shirt (Women)",3
+12,"Oral Saline (ORS)",16,"Lux Soap 100g",3
+9,"Bru Coffee 200g",31,"Water Bottle 1L",3
+2,"Nazirshail Rice 5kg",6,"Broiler Chicken (whole)",3
+31,"Water Bottle 1L",39,"Ladies Bag",3
+6,"Broiler Chicken (whole)",8,"Farm Fresh Milk 1L",3
+1,"Miniket Rice 5kg",37,"Cap",3
+22,"GP Internet Pack",35,"T-shirt (Men)",3
+10,"Taaza Black Tea 400g",34,"Shoes Polish",3
+25,"Green Chili 100g",34,"Shoes Polish",3
+24,"Potato 1kg",37,"Cap",3
+13,"Vim Dishwashing Bar",21,"Robi Internet Pack",3
+37,"Cap",41,"Earphones",3
+1,"Miniket Rice 5kg",38,"Wallet (Men)",3
+25,"Green Chili 100g",29,"Chanachur 200g",3
+22,"GP Internet Pack",30,"Peanut 500g",3
+2,"Nazirshail Rice 5kg",37,"Cap",3
+16,"Lux Soap 100g",37,"Cap",3
+11,"Horlicks 500g",31,"Water Bottle 1L",3
+8,"Farm Fresh Milk 1L",27,"Flour (Atta) 2kg",3
+9,"Bru Coffee 200g",29,"Chanachur 200g",3
+22,"GP Internet Pack",29,"Chanachur 200g",3
+20,"Banglalink Internet Pack",32,"Pepsi 1L",3
+9,"Bru Coffee 200g",20,"Banglalink Internet Pack",3
+4,"Fresh Sugar 1kg",23,"Onion 1kg",3
+10,"Taaza Black Tea 400g",39,"Ladies Bag",3
+16,"Lux Soap 100g",25,"Green Chili 100g",3
+28,"Biscuits (Mixed)",36,"T-shirt (Women)",3
+20,"Banglalink Internet Pack",39,"Ladies Bag",3
+12,"Oral Saline (ORS)",21,"Robi Internet Pack",3
+13,"Vim Dishwashing Bar",33,"Sprite 1L",3
+6,"Broiler Chicken (whole)",34,"Shoes Polish",3
+13,"Vim Dishwashing Bar",25,"Green Chili 100g",3
+19,"Bashundhara Tissue",40,"Power Bank 10000mAh",3
+27,"Flour (Atta) 2kg",41,"Earphones",3
+32,"Pepsi 1L",35,"T-shirt (Men)",3
+3,"Rupchanda Soyabean Oil 1L",23,"Onion 1kg",3
+28,"Biscuits (Mixed)",39,"Ladies Bag",3
+9,"Bru Coffee 200g",18,"Clear Men Shampoo 180ml",3
+5,"ACI Pure Salt 1kg",40,"Power Bank 10000mAh",3
+4,"Fresh Sugar 1kg",13,"Vim Dishwashing Bar",3
+39,"Ladies Bag",40,"Power Bank 10000mAh",3
+35,"T-shirt (Men)",37,"Cap",3
+9,"Bru Coffee 200g",25,"Green Chili 100g",3
+1,"Miniket Rice 5kg",21,"Robi Internet Pack",3
+9,"Bru Coffee 200g",10,"Taaza Black Tea 400g",3
+1,"Miniket Rice 5kg",26,"Lentil (Dal) 1kg",3
+11,"Horlicks 500g",28,"Biscuits (Mixed)",3
+10,"Taaza Black Tea 400g",24,"Potato 1kg",3
+29,"Chanachur 200g",39,"Ladies Bag",3
+3,"Rupchanda Soyabean Oil 1L",31,"Water Bottle 1L",3
+5,"ACI Pure Salt 1kg",6,"Broiler Chicken (whole)",3
+13,"Vim Dishwashing Bar",41,"Earphones",3
+5,"ACI Pure Salt 1kg",29,"Chanachur 200g",3
+10,"Taaza Black Tea 400g",19,"Bashundhara Tissue",3
+11,"Horlicks 500g",34,"Shoes Polish",3
+17,"Sunsilk Shampoo 180ml",32,"Pepsi 1L",3
+5,"ACI Pure Salt 1kg",25,"Green Chili 100g",3
+6,"Broiler Chicken (whole)",41,"Earphones",2
+9,"Bru Coffee 200g",16,"Lux Soap 100g",2
+30,"Peanut 500g",33,"Sprite 1L",2
+7,"Deshi Egg (12 pcs)",40,"Power Bank 10000mAh",2
+1,"Miniket Rice 5kg",23,"Onion 1kg",2
+10,"Taaza Black Tea 400g",37,"Cap",2
+10,"Taaza Black Tea 400g",33,"Sprite 1L",2
+1,"Miniket Rice 5kg",39,"Ladies Bag",2
+13,"Vim Dishwashing Bar",26,"Lentil (Dal) 1kg",2
+35,"T-shirt (Men)",38,"Wallet (Men)",2
+37,"Cap",39,"Ladies Bag",2
+28,"Biscuits (Mixed)",37,"Cap",2
+8,"Farm Fresh Milk 1L",11,"Horlicks 500g",2
+8,"Farm Fresh Milk 1L",41,"Earphones",2
+4,"Fresh Sugar 1kg",37,"Cap",2
+28,"Biscuits (Mixed)",38,"Wallet (Men)",2
+20,"Banglalink Internet Pack",21,"Robi Internet Pack",2
+1,"Miniket Rice 5kg",16,"Lux Soap 100g",2
+14,"Wheel Washing Powder 1kg",25,"Green Chili 100g",2
+10,"Taaza Black Tea 400g",25,"Green Chili 100g",2
+15,"Lifebuoy Soap 100g",34,"Shoes Polish",2
+1,"Miniket Rice 5kg",31,"Water Bottle 1L",2
+12,"Oral Saline (ORS)",38,"Wallet (Men)",2
+2,"Nazirshail Rice 5kg",16,"Lux Soap 100g",2
+11,"Horlicks 500g",16,"Lux Soap 100g",2
+6,"Broiler Chicken (whole)",17,"Sunsilk Shampoo 180ml",2
+14,"Wheel Washing Powder 1kg",29,"Chanachur 200g",2
+8,"Farm Fresh Milk 1L",20,"Banglalink Internet Pack",2
+24,"Potato 1kg",39,"Ladies Bag",2
+20,"Banglalink Internet Pack",41,"Earphones",2
+22,"GP Internet Pack",23,"Onion 1kg",2
+7,"Deshi Egg (12 pcs)",28,"Biscuits (Mixed)",2
+4,"Fresh Sugar 1kg",39,"Ladies Bag",2
+14,"Wheel Washing Powder 1kg",30,"Peanut 500g",2
+12,"Oral Saline (ORS)",41,"Earphones",2
+8,"Farm Fresh Milk 1L",26,"Lentil (Dal) 1kg",2
+30,"Peanut 500g",37,"Cap",2
+7,"Deshi Egg (12 pcs)",19,"Bashundhara Tissue",2
+26,"Lentil (Dal) 1kg",37,"Cap",2
+14,"Wheel Washing Powder 1kg",41,"Earphones",2
+33,"Sprite 1L",37,"Cap",2
+24,"Potato 1kg",28,"Biscuits (Mixed)",2
+4,"Fresh Sugar 1kg",20,"Banglalink Internet Pack",2
+5,"ACI Pure Salt 1kg",19,"Bashundhara Tissue",2
+26,"Lentil (Dal) 1kg",30,"Peanut 500g",2
+1,"Miniket Rice 5kg",35,"T-shirt (Men)",2
+12,"Oral Saline (ORS)",29,"Chanachur 200g",2
+25,"Green Chili 100g",27,"Flour (Atta) 2kg",2
+5,"ACI Pure Salt 1kg",14,"Wheel Washing Powder 1kg",2
+21,"Robi Internet Pack",39,"Ladies Bag",2
+12,"Oral Saline (ORS)",27,"Flour (Atta) 2kg",2
+14,"Wheel Washing Powder 1kg",34,"Shoes Polish",2
+3,"Rupchanda Soyabean Oil 1L",36,"T-shirt (Women)",2
+2,"Nazirshail Rice 5kg",19,"Bashundhara Tissue",2
+3,"Rupchanda Soyabean Oil 1L",27,"Flour (Atta) 2kg",2
+23,"Onion 1kg",41,"Earphones",2
+7,"Deshi Egg (12 pcs)",34,"Shoes Polish",2
+8,"Farm Fresh Milk 1L",33,"Sprite 1L",2
+5,"ACI Pure Salt 1kg",39,"Ladies Bag",2
+5,"ACI Pure Salt 1kg",38,"Wallet (Men)",2
+37,"Cap",40,"Power Bank 10000mAh",2
+5,"ACI Pure Salt 1kg",27,"Flour (Atta) 2kg",2
+21,"Robi Internet Pack",24,"Potato 1kg",2
+28,"Biscuits (Mixed)",30,"Peanut 500g",2
+23,"Onion 1kg",30,"Peanut 500g",2
+31,"Water Bottle 1L",37,"Cap",2
+1,"Miniket Rice 5kg",36,"T-shirt (Women)",2
+17,"Sunsilk Shampoo 180ml",24,"Potato 1kg",2
+19,"Bashundhara Tissue",29,"Chanachur 200g",2
+8,"Farm Fresh Milk 1L",30,"Peanut 500g",2
+22,"GP Internet Pack",28,"Biscuits (Mixed)",2
+15,"Lifebuoy Soap 100g",20,"Banglalink Internet Pack",2
+3,"Rupchanda Soyabean Oil 1L",39,"Ladies Bag",2
+5,"ACI Pure Salt 1kg",23,"Onion 1kg",2
+4,"Fresh Sugar 1kg",28,"Biscuits (Mixed)",1
+5,"ACI Pure Salt 1kg",26,"Lentil (Dal) 1kg",1
+13,"Vim Dishwashing Bar",22,"GP Internet Pack",1
+3,"Rupchanda Soyabean Oil 1L",35,"T-shirt (Men)",1
+8,"Farm Fresh Milk 1L",13,"Vim Dishwashing Bar",1
+19,"Bashundhara Tissue",38,"Wallet (Men)",1
+16,"Lux Soap 100g",29,"Chanachur 200g",1
+5,"ACI Pure Salt 1kg",20,"Banglalink Internet Pack",1
+1,"Miniket Rice 5kg",25,"Green Chili 100g",1
+13,"Vim Dishwashing Bar",36,"T-shirt (Women)",1
+16,"Lux Soap 100g",31,"Water Bottle 1L",1
+25,"Green Chili 100g",28,"Biscuits (Mixed)",1
+38,"Wallet (Men)",39,"Ladies Bag",1
+14,"Wheel Washing Powder 1kg",20,"Banglalink Internet Pack",1
+18,"Clear Men Shampoo 180ml",22,"GP Internet Pack",1
+11,"Horlicks 500g",26,"Lentil (Dal) 1kg",1
+14,"Wheel Washing Powder 1kg",17,"Sunsilk Shampoo 180ml",1
+16,"Lux Soap 100g",36,"T-shirt (Women)",1
+17,"Sunsilk Shampoo 180ml",28,"Biscuits (Mixed)",1
+19,"Bashundhara Tissue",37,"Cap",1

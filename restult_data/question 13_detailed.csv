@@ -1,0 +1,25 @@
+"category","gender","completed_orders","unique_customers","order_quantity","total_revenue","qty_percent_in_gender","rev_percent_in_gender"
+"Fashion","Female",120,41,347,131840,11.11,22.53
+"Grocery","Female",214,42,751,120587,24.06,20.61
+"Electronics","Female",60,32,159,92950,5.09,15.89
+"Beverages","Female",146,41,434,60420,13.90,10.33
+"Health","Female",67,33,185,50424,5.93,8.62
+"Personal Care","Female",134,42,401,43554,12.84,7.44
+"Digital","Female",69,35,186,23494,5.96,4.02
+"Poultry","Female",36,23,104,16640,3.33,2.84
+"Meat","Female",32,25,71,16330,2.27,2.79
+"Snacks","Female",88,35,223,12540,7.14,2.14
+"Home Care","Female",76,36,196,10460,6.28,1.79
+"Dairy","Female",26,18,65,5850,2.08,1.00
+"Grocery","Male",268,57,952,167907,25.87,23.47
+"Fashion","Male",159,54,429,159830,11.66,22.34
+"Electronics","Male",73,41,179,126650,4.86,17.70
+"Beverages","Male",161,55,428,62155,11.63,8.69
+"Personal Care","Male",161,54,459,51172,12.47,7.15
+"Health","Male",76,41,175,39072,4.76,5.46
+"Digital","Male",109,49,297,37803,8.07,5.28
+"Meat","Male",39,28,83,19090,2.26,2.67
+"Snacks","Male",91,46,249,15620,6.77,2.18
+"Home Care","Male",92,43,258,14670,7.01,2.05
+"Poultry","Male",33,22,88,14080,2.39,1.97
+"Dairy","Male",39,30,83,7470,2.26,1.04
