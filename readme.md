@@ -234,6 +234,7 @@ This section evaluates UrbanCart’s overall business performance by analyzing t
 ---
 
 3. **Cities generating the highest orders and revenue**
+   
   The city-level sales analysis shows that Chattogram generated the highest number of orders and the highest total revenue. Barishal and Sylhet also performed strongly, with the same number of orders but slightly different revenue values.
 
     | City        | Total Orders | Total Revenue |
@@ -484,8 +485,11 @@ The daily transactional data was summarized as follows:
 
 ---
 
+
 #### 2. Customer Behavior Analysis
-This section examines customer contribution, Gmail usage, repeat purchasing behavior, customer activity across months, purchasing behavior since account creation, and differences in purchasing patterns by gender and city.
+
+This section examines customer contribution, mail usage, repeat purchasing behavior, customer activity across months, purchasing behavior since account creation, and differences in purchasing patterns by gender and city.
+
 ---
 3. **Percentage of customers using Gmail**
 **Business Question:**  
